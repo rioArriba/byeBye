@@ -1,0 +1,1101 @@
+[
+    {
+        "Id": 1,
+        "Localidad": "Alaior",
+        "Codigo": "070027",
+        "Descripcion": "Balears, Illes - Alaior - 070027",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 2,
+        "Localidad": "Alaró",
+        "Codigo": "070012",
+        "Descripcion": "Balears, Illes - Alaró - 070012",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 3,
+        "Localidad": "Alcúdia",
+        "Codigo": "070033",
+        "Descripcion": "Balears, Illes - Alcúdia - 070033",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 4,
+        "Localidad": "Algaida",
+        "Codigo": "070048",
+        "Descripcion": "Balears, Illes - Algaida - 070048",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 5,
+        "Localidad": "Andratx",
+        "Codigo": "070051",
+        "Descripcion": "Balears, Illes - Andratx - 070051",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 6,
+        "Localidad": "Ariany",
+        "Codigo": "079013",
+        "Descripcion": "Balears, Illes - Ariany - 079013",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 7,
+        "Localidad": "Artà",
+        "Codigo": "070064",
+        "Descripcion": "Balears, Illes - Artà - 070064",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 8,
+        "Localidad": "Banyalbufar",
+        "Codigo": "070070",
+        "Descripcion": "Balears, Illes - Banyalbufar - 070070",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 9,
+        "Localidad": "Binissalem",
+        "Codigo": "070086",
+        "Descripcion": "Balears, Illes - Binissalem - 070086",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 10,
+        "Localidad": "Búger",
+        "Codigo": "070099",
+        "Descripcion": "Balears, Illes - Búger - 070099",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 11,
+        "Localidad": "Bunyola",
+        "Codigo": "070103",
+        "Descripcion": "Balears, Illes - Bunyola - 070103",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 12,
+        "Localidad": "Calvià",
+        "Codigo": "070110",
+        "Descripcion": "Balears, Illes - Calvià - 070110",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 13,
+        "Localidad": "Campanet",
+        "Codigo": "070125",
+        "Descripcion": "Balears, Illes - Campanet - 070125",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 14,
+        "Localidad": "Campos",
+        "Codigo": "070131",
+        "Descripcion": "Balears, Illes - Campos - 070131",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 15,
+        "Localidad": "Capdepera",
+        "Codigo": "070146",
+        "Descripcion": "Balears, Illes - Capdepera - 070146",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 16,
+        "Localidad": "Castell, Es",
+        "Codigo": "070645",
+        "Descripcion": "Balears, Illes - Castell, Es - 070645",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 17,
+        "Localidad": "Ciutadella de Menorca",
+        "Codigo": "070159",
+        "Descripcion": "Balears, Illes - Ciutadella de Menorca - 070159",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 18,
+        "Localidad": "Consell",
+        "Codigo": "070162",
+        "Descripcion": "Balears, Illes - Consell - 070162",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 19,
+        "Localidad": "Costitx",
+        "Codigo": "070178",
+        "Descripcion": "Balears, Illes - Costitx - 070178",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 20,
+        "Localidad": "Deià",
+        "Codigo": "070184",
+        "Descripcion": "Balears, Illes - Deià - 070184",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 21,
+        "Localidad": "Eivissa",
+        "Codigo": "070260",
+        "Descripcion": "Balears, Illes - Eivissa - 070260",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 22,
+        "Localidad": "Escorca",
+        "Codigo": "070197",
+        "Descripcion": "Balears, Illes - Escorca - 070197",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 23,
+        "Localidad": "Esporles",
+        "Codigo": "070201",
+        "Descripcion": "Balears, Illes - Esporles - 070201",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 24,
+        "Localidad": "Estellencs",
+        "Codigo": "070218",
+        "Descripcion": "Balears, Illes - Estellencs - 070218",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 25,
+        "Localidad": "Felanitx",
+        "Codigo": "070223",
+        "Descripcion": "Balears, Illes - Felanitx - 070223",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 26,
+        "Localidad": "Ferreries",
+        "Codigo": "070239",
+        "Descripcion": "Balears, Illes - Ferreries - 070239",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 27,
+        "Localidad": "Formentera",
+        "Codigo": "070244",
+        "Descripcion": "Balears, Illes - Formentera - 070244",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 28,
+        "Localidad": "Fornalutx",
+        "Codigo": "070257",
+        "Descripcion": "Balears, Illes - Fornalutx - 070257",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 29,
+        "Localidad": "Inca",
+        "Codigo": "070276",
+        "Descripcion": "Balears, Illes - Inca - 070276",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 30,
+        "Localidad": "Lloret de Vistalegre",
+        "Codigo": "070282",
+        "Descripcion": "Balears, Illes - Lloret de Vistalegre - 070282",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 31,
+        "Localidad": "Lloseta",
+        "Codigo": "070295",
+        "Descripcion": "Balears, Illes - Lloseta - 070295",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 32,
+        "Localidad": "Llubí",
+        "Codigo": "070309",
+        "Descripcion": "Balears, Illes - Llubí - 070309",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 33,
+        "Localidad": "Llucmajor",
+        "Codigo": "070316",
+        "Descripcion": "Balears, Illes - Llucmajor - 070316",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 34,
+        "Localidad": "Manacor",
+        "Codigo": "070337",
+        "Descripcion": "Balears, Illes - Manacor - 070337",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 35,
+        "Localidad": "Mancor de la Vall",
+        "Codigo": "070342",
+        "Descripcion": "Balears, Illes - Mancor de la Vall - 070342",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 36,
+        "Localidad": "Maó-Mahón",
+        "Codigo": "070321",
+        "Descripcion": "Balears, Illes - Maó-Mahón - 070321",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 37,
+        "Localidad": "Maria de la Salut",
+        "Codigo": "070355",
+        "Descripcion": "Balears, Illes - Maria de la Salut - 070355",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 38,
+        "Localidad": "Marratxí",
+        "Codigo": "070368",
+        "Descripcion": "Balears, Illes - Marratxí - 070368",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 39,
+        "Localidad": "Mercadal, Es",
+        "Codigo": "070374",
+        "Descripcion": "Balears, Illes - Mercadal, Es - 070374",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 40,
+        "Localidad": "Migjorn Gran, Es",
+        "Codigo": "079028",
+        "Descripcion": "Balears, Illes - Migjorn Gran, Es - 079028",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 41,
+        "Localidad": "Montuïri",
+        "Codigo": "070380",
+        "Descripcion": "Balears, Illes - Montuïri - 070380",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 42,
+        "Localidad": "Muro",
+        "Codigo": "070393",
+        "Descripcion": "Balears, Illes - Muro - 070393",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 43,
+        "Localidad": "Palma ",
+        "Codigo": "070407",
+        "Descripcion": "Balears, Illes - Palma  - 070407",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 44,
+        "Localidad": "Petra",
+        "Codigo": "070414",
+        "Descripcion": "Balears, Illes - Petra - 070414",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 45,
+        "Localidad": "Pobla, Sa",
+        "Codigo": "070440",
+        "Descripcion": "Balears, Illes - Pobla, Sa - 070440",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 46,
+        "Localidad": "Pollença",
+        "Codigo": "070429",
+        "Descripcion": "Balears, Illes - Pollença - 070429",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 47,
+        "Localidad": "Porreres",
+        "Codigo": "070435",
+        "Descripcion": "Balears, Illes - Porreres - 070435",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 48,
+        "Localidad": "Puigpunyent",
+        "Codigo": "070453",
+        "Descripcion": "Balears, Illes - Puigpunyent - 070453",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 49,
+        "Localidad": "Salines, Ses",
+        "Codigo": "070598",
+        "Descripcion": "Balears, Illes - Salines, Ses - 070598",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 50,
+        "Localidad": "Sant Antoni de Portmany",
+        "Codigo": "070466",
+        "Descripcion": "Balears, Illes - Sant Antoni de Portmany - 070466",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 51,
+        "Localidad": "Sant Joan",
+        "Codigo": "070491",
+        "Descripcion": "Balears, Illes - Sant Joan - 070491",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 52,
+        "Localidad": "Sant Joan de Labritja",
+        "Codigo": "070504",
+        "Descripcion": "Balears, Illes - Sant Joan de Labritja - 070504",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 53,
+        "Localidad": "Sant Josep de sa Talaia",
+        "Codigo": "070488",
+        "Descripcion": "Balears, Illes - Sant Josep de sa Talaia - 070488",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 54,
+        "Localidad": "Sant Llorenç des Cardassar",
+        "Codigo": "070511",
+        "Descripcion": "Balears, Illes - Sant Llorenç des Cardassar - 070511",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 55,
+        "Localidad": "Sant Lluís",
+        "Codigo": "070526",
+        "Descripcion": "Balears, Illes - Sant Lluís - 070526",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 56,
+        "Localidad": "Santa Eugènia",
+        "Codigo": "070532",
+        "Descripcion": "Balears, Illes - Santa Eugènia - 070532",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 57,
+        "Localidad": "Santa Eulària des Riu",
+        "Codigo": "070547",
+        "Descripcion": "Balears, Illes - Santa Eulària des Riu - 070547",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 58,
+        "Localidad": "Santa Margalida",
+        "Codigo": "070550",
+        "Descripcion": "Balears, Illes - Santa Margalida - 070550",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 59,
+        "Localidad": "Santa María del Camí",
+        "Codigo": "070563",
+        "Descripcion": "Balears, Illes - Santa María del Camí - 070563",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 60,
+        "Localidad": "Santanyí",
+        "Codigo": "070579",
+        "Descripcion": "Balears, Illes - Santanyí - 070579",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 61,
+        "Localidad": "Selva",
+        "Codigo": "070585",
+        "Descripcion": "Balears, Illes - Selva - 070585",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 62,
+        "Localidad": "Sencelles",
+        "Codigo": "070472",
+        "Descripcion": "Balears, Illes - Sencelles - 070472",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 63,
+        "Localidad": "Sineu",
+        "Codigo": "070602",
+        "Descripcion": "Balears, Illes - Sineu - 070602",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 64,
+        "Localidad": "Sóller",
+        "Codigo": "070619",
+        "Descripcion": "Balears, Illes - Sóller - 070619",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 65,
+        "Localidad": "Son Servera",
+        "Codigo": "070624",
+        "Descripcion": "Balears, Illes - Son Servera - 070624",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 66,
+        "Localidad": "Valldemossa",
+        "Codigo": "070630",
+        "Descripcion": "Balears, Illes - Valldemossa - 070630",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 67,
+        "Localidad": "Vilafranca de Bonany",
+        "Codigo": "070658",
+        "Descripcion": "Balears, Illes - Vilafranca de Bonany - 070658",
+        "Provincia": "Balears, Illes"
+    },
+    {
+        "Id": 124,
+        "Localidad": "Agaete",
+        "Codigo": "350017",
+        "Descripcion": "Palmas, Las - Agaete - 350017",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 125,
+        "Localidad": "Agüimes",
+        "Codigo": "350022",
+        "Descripcion": "Palmas, Las - Agüimes - 350022",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 126,
+        "Localidad": "Aldea de San Nicolás, La",
+        "Codigo": "350206",
+        "Descripcion": "Palmas, Las - Aldea de San Nicolás, La - 350206",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 127,
+        "Localidad": "Antigua",
+        "Codigo": "350038",
+        "Descripcion": "Palmas, Las - Antigua - 350038",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 128,
+        "Localidad": "Arrecife",
+        "Codigo": "350043",
+        "Descripcion": "Palmas, Las - Arrecife - 350043",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 129,
+        "Localidad": "Artenara",
+        "Codigo": "350056",
+        "Descripcion": "Palmas, Las - Artenara - 350056",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 130,
+        "Localidad": "Arucas",
+        "Codigo": "350069",
+        "Descripcion": "Palmas, Las - Arucas - 350069",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 131,
+        "Localidad": "Betancuria",
+        "Codigo": "350075",
+        "Descripcion": "Palmas, Las - Betancuria - 350075",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 132,
+        "Localidad": "Firgas",
+        "Codigo": "350081",
+        "Descripcion": "Palmas, Las - Firgas - 350081",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 133,
+        "Localidad": "Gáldar",
+        "Codigo": "350094",
+        "Descripcion": "Palmas, Las - Gáldar - 350094",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 134,
+        "Localidad": "Haría",
+        "Codigo": "350108",
+        "Descripcion": "Palmas, Las - Haría - 350108",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 135,
+        "Localidad": "Ingenio",
+        "Codigo": "350115",
+        "Descripcion": "Palmas, Las - Ingenio - 350115",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 136,
+        "Localidad": "Mogán",
+        "Codigo": "350120",
+        "Descripcion": "Palmas, Las - Mogán - 350120",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 137,
+        "Localidad": "Moya",
+        "Codigo": "350136",
+        "Descripcion": "Palmas, Las - Moya - 350136",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 138,
+        "Localidad": "Oliva, La",
+        "Codigo": "350141",
+        "Descripcion": "Palmas, Las - Oliva, La - 350141",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 139,
+        "Localidad": "Pájara",
+        "Codigo": "350154",
+        "Descripcion": "Palmas, Las - Pájara - 350154",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 140,
+        "Localidad": "Palmas de Gran Canaria, Las",
+        "Codigo": "350167",
+        "Descripcion": "Palmas, Las - Palmas de Gran Canaria, Las - 350167",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 141,
+        "Localidad": "Puerto del Rosario",
+        "Codigo": "350173",
+        "Descripcion": "Palmas, Las - Puerto del Rosario - 350173",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 142,
+        "Localidad": "San Bartolomé",
+        "Codigo": "350189",
+        "Descripcion": "Palmas, Las - San Bartolomé - 350189",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 143,
+        "Localidad": "San Bartolomé de Tirajana",
+        "Codigo": "350192",
+        "Descripcion": "Palmas, Las - San Bartolomé de Tirajana - 350192",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 144,
+        "Localidad": "Santa Brígida",
+        "Codigo": "350213",
+        "Descripcion": "Palmas, Las - Santa Brígida - 350213",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 145,
+        "Localidad": "Santa Lucía de Tirajana",
+        "Codigo": "350228",
+        "Descripcion": "Palmas, Las - Santa Lucía de Tirajana - 350228",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 146,
+        "Localidad": "Santa María de Guía de Gran Canaria",
+        "Codigo": "350234",
+        "Descripcion": "Palmas, Las - Santa María de Guía de Gran Canaria - 350234",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 147,
+        "Localidad": "Teguise",
+        "Codigo": "350249",
+        "Descripcion": "Palmas, Las - Teguise - 350249",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 148,
+        "Localidad": "Tejeda",
+        "Codigo": "350252",
+        "Descripcion": "Palmas, Las - Tejeda - 350252",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 149,
+        "Localidad": "Telde",
+        "Codigo": "350265",
+        "Descripcion": "Palmas, Las - Telde - 350265",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 150,
+        "Localidad": "Teror",
+        "Codigo": "350271",
+        "Descripcion": "Palmas, Las - Teror - 350271",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 151,
+        "Localidad": "Tías",
+        "Codigo": "350287",
+        "Descripcion": "Palmas, Las - Tías - 350287",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 152,
+        "Localidad": "Tinajo",
+        "Codigo": "350290",
+        "Descripcion": "Palmas, Las - Tinajo - 350290",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 153,
+        "Localidad": "Tuineje",
+        "Codigo": "350304",
+        "Descripcion": "Palmas, Las - Tuineje - 350304",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 154,
+        "Localidad": "Valleseco",
+        "Codigo": "350326",
+        "Descripcion": "Palmas, Las - Valleseco - 350326",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 155,
+        "Localidad": "Valsequillo de Gran Canaria",
+        "Codigo": "350311",
+        "Descripcion": "Palmas, Las - Valsequillo de Gran Canaria - 350311",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 156,
+        "Localidad": "Vega de San Mateo",
+        "Codigo": "350332",
+        "Descripcion": "Palmas, Las - Vega de San Mateo - 350332",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 157,
+        "Localidad": "Yaiza",
+        "Codigo": "350347",
+        "Descripcion": "Palmas, Las - Yaiza - 350347",
+        "Provincia": "Palmas, Las"
+    },
+    {
+        "Id": 68,
+        "Localidad": "Adeje",
+        "Codigo": "380012",
+        "Descripcion": "Santa Cruz de Tenerife - Adeje - 380012",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 69,
+        "Localidad": "Agulo",
+        "Codigo": "380027",
+        "Descripcion": "Santa Cruz de Tenerife - Agulo - 380027",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 70,
+        "Localidad": "Alajeró",
+        "Codigo": "380033",
+        "Descripcion": "Santa Cruz de Tenerife - Alajeró - 380033",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 71,
+        "Localidad": "Arafo",
+        "Codigo": "380048",
+        "Descripcion": "Santa Cruz de Tenerife - Arafo - 380048",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 72,
+        "Localidad": "Arico",
+        "Codigo": "380051",
+        "Descripcion": "Santa Cruz de Tenerife - Arico - 380051",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 73,
+        "Localidad": "Arona",
+        "Codigo": "380064",
+        "Descripcion": "Santa Cruz de Tenerife - Arona - 380064",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 74,
+        "Localidad": "Barlovento",
+        "Codigo": "380070",
+        "Descripcion": "Santa Cruz de Tenerife - Barlovento - 380070",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 75,
+        "Localidad": "Breña Alta",
+        "Codigo": "380086",
+        "Descripcion": "Santa Cruz de Tenerife - Breña Alta - 380086",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 76,
+        "Localidad": "Breña Baja",
+        "Codigo": "380099",
+        "Descripcion": "Santa Cruz de Tenerife - Breña Baja - 380099",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 77,
+        "Localidad": "Buenavista del Norte",
+        "Codigo": "380103",
+        "Descripcion": "Santa Cruz de Tenerife - Buenavista del Norte - 380103",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 78,
+        "Localidad": "Candelaria",
+        "Codigo": "380110",
+        "Descripcion": "Santa Cruz de Tenerife - Candelaria - 380110",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 79,
+        "Localidad": "Fasnia",
+        "Codigo": "380125",
+        "Descripcion": "Santa Cruz de Tenerife - Fasnia - 380125",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 80,
+        "Localidad": "Frontera",
+        "Codigo": "380131",
+        "Descripcion": "Santa Cruz de Tenerife - Frontera - 380131",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 81,
+        "Localidad": "Fuencaliente de la Palma",
+        "Codigo": "380146",
+        "Descripcion": "Santa Cruz de Tenerife - Fuencaliente de la Palma - 380146",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 82,
+        "Localidad": "Garachico",
+        "Codigo": "380159",
+        "Descripcion": "Santa Cruz de Tenerife - Garachico - 380159",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 83,
+        "Localidad": "Garafía",
+        "Codigo": "380162",
+        "Descripcion": "Santa Cruz de Tenerife - Garafía - 380162",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 84,
+        "Localidad": "Granadilla de Abona",
+        "Codigo": "380178",
+        "Descripcion": "Santa Cruz de Tenerife - Granadilla de Abona - 380178",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 85,
+        "Localidad": "Guancha, La",
+        "Codigo": "380184",
+        "Descripcion": "Santa Cruz de Tenerife - Guancha, La - 380184",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 86,
+        "Localidad": "Guía de Isora",
+        "Codigo": "380197",
+        "Descripcion": "Santa Cruz de Tenerife - Guía de Isora - 380197",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 87,
+        "Localidad": "Güímar",
+        "Codigo": "380201",
+        "Descripcion": "Santa Cruz de Tenerife - Güímar - 380201",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 88,
+        "Localidad": "Hermigua",
+        "Codigo": "380218",
+        "Descripcion": "Santa Cruz de Tenerife - Hermigua - 380218",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 89,
+        "Localidad": "Icod de los Vinos",
+        "Codigo": "380223",
+        "Descripcion": "Santa Cruz de Tenerife - Icod de los Vinos - 380223",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 90,
+        "Localidad": "Llanos de Aridane, Los",
+        "Codigo": "380244",
+        "Descripcion": "Santa Cruz de Tenerife - Llanos de Aridane, Los - 380244",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 91,
+        "Localidad": "Matanza de Acentejo, La",
+        "Codigo": "380257",
+        "Descripcion": "Santa Cruz de Tenerife - Matanza de Acentejo, La - 380257",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 92,
+        "Localidad": "Orotava, La",
+        "Codigo": "380260",
+        "Descripcion": "Santa Cruz de Tenerife - Orotava, La - 380260",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 93,
+        "Localidad": "Paso, El",
+        "Codigo": "380276",
+        "Descripcion": "Santa Cruz de Tenerife - Paso, El - 380276",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 94,
+        "Localidad": "Pinar de El Hierro, El",
+        "Codigo": "389013",
+        "Descripcion": "Santa Cruz de Tenerife - Pinar de El Hierro, El - 389013",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 95,
+        "Localidad": "Puerto de la Cruz",
+        "Codigo": "380282",
+        "Descripcion": "Santa Cruz de Tenerife - Puerto de la Cruz - 380282",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 96,
+        "Localidad": "Puntagorda",
+        "Codigo": "380295",
+        "Descripcion": "Santa Cruz de Tenerife - Puntagorda - 380295",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 97,
+        "Localidad": "Puntallana",
+        "Codigo": "380309",
+        "Descripcion": "Santa Cruz de Tenerife - Puntallana - 380309",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 98,
+        "Localidad": "Realejos, Los",
+        "Codigo": "380316",
+        "Descripcion": "Santa Cruz de Tenerife - Realejos, Los - 380316",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 99,
+        "Localidad": "Rosario, El",
+        "Codigo": "380321",
+        "Descripcion": "Santa Cruz de Tenerife - Rosario, El - 380321",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 100,
+        "Localidad": "San Andrés y Sauces",
+        "Codigo": "380337",
+        "Descripcion": "Santa Cruz de Tenerife - San Andrés y Sauces - 380337",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 101,
+        "Localidad": "San Cristóbal de La Laguna",
+        "Codigo": "380239",
+        "Descripcion": "Santa Cruz de Tenerife - San Cristóbal de La Laguna - 380239",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 102,
+        "Localidad": "San Juan de la Rambla",
+        "Codigo": "380342",
+        "Descripcion": "Santa Cruz de Tenerife - San Juan de la Rambla - 380342",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 103,
+        "Localidad": "San Miguel de Abona",
+        "Codigo": "380355",
+        "Descripcion": "Santa Cruz de Tenerife - San Miguel de Abona - 380355",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 104,
+        "Localidad": "San Sebastián de la Gomera",
+        "Codigo": "380368",
+        "Descripcion": "Santa Cruz de Tenerife - San Sebastián de la Gomera - 380368",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 105,
+        "Localidad": "Santa Cruz de la Palma",
+        "Codigo": "380374",
+        "Descripcion": "Santa Cruz de Tenerife - Santa Cruz de la Palma - 380374",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 106,
+        "Localidad": "Santa Cruz de Tenerife",
+        "Codigo": "380380",
+        "Descripcion": "Santa Cruz de Tenerife - Santa Cruz de Tenerife - 380380",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 107,
+        "Localidad": "Santa Úrsula",
+        "Codigo": "380393",
+        "Descripcion": "Santa Cruz de Tenerife - Santa Úrsula - 380393",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 108,
+        "Localidad": "Santiago del Teide",
+        "Codigo": "380407",
+        "Descripcion": "Santa Cruz de Tenerife - Santiago del Teide - 380407",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 109,
+        "Localidad": "Sauzal, El",
+        "Codigo": "380414",
+        "Descripcion": "Santa Cruz de Tenerife - Sauzal, El - 380414",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 110,
+        "Localidad": "Silos, Los",
+        "Codigo": "380429",
+        "Descripcion": "Santa Cruz de Tenerife - Silos, Los - 380429",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 111,
+        "Localidad": "Tacoronte",
+        "Codigo": "380435",
+        "Descripcion": "Santa Cruz de Tenerife - Tacoronte - 380435",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 112,
+        "Localidad": "Tanque, El",
+        "Codigo": "380440",
+        "Descripcion": "Santa Cruz de Tenerife - Tanque, El - 380440",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 113,
+        "Localidad": "Tazacorte",
+        "Codigo": "380453",
+        "Descripcion": "Santa Cruz de Tenerife - Tazacorte - 380453",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 114,
+        "Localidad": "Tegueste",
+        "Codigo": "380466",
+        "Descripcion": "Santa Cruz de Tenerife - Tegueste - 380466",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 115,
+        "Localidad": "Tijarafe",
+        "Codigo": "380472",
+        "Descripcion": "Santa Cruz de Tenerife - Tijarafe - 380472",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 116,
+        "Localidad": "Valle Gran Rey",
+        "Codigo": "380491",
+        "Descripcion": "Santa Cruz de Tenerife - Valle Gran Rey - 380491",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 117,
+        "Localidad": "Vallehermoso",
+        "Codigo": "380504",
+        "Descripcion": "Santa Cruz de Tenerife - Vallehermoso - 380504",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 118,
+        "Localidad": "Valverde",
+        "Codigo": "380488",
+        "Descripcion": "Santa Cruz de Tenerife - Valverde - 380488",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 119,
+        "Localidad": "Victoria de Acentejo, La",
+        "Codigo": "380511",
+        "Descripcion": "Santa Cruz de Tenerife - Victoria de Acentejo, La - 380511",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 120,
+        "Localidad": "Vilaflor de Chasna",
+        "Codigo": "380526",
+        "Descripcion": "Santa Cruz de Tenerife - Vilaflor de Chasna - 380526",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 121,
+        "Localidad": "Villa de Mazo",
+        "Codigo": "380532",
+        "Descripcion": "Santa Cruz de Tenerife - Villa de Mazo - 380532",
+        "Provincia": "Santa Cruz de Tenerife"
+    },
+    {
+        "Id": 122,
+        "Localidad": "Ceuta",
+        "Codigo": "510013",
+        "Descripcion": "Ceuta - Ceuta - 510013",
+        "Provincia": "Ceuta"
+    },
+    {
+        "Id": 123,
+        "Localidad": "Melilla",
+        "Codigo": "520018",
+        "Descripcion": "Melilla - Melilla - 520018",
+        "Provincia": "Melilla"
+    }
+]

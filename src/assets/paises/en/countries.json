@@ -1,0 +1,2243 @@
+[
+    {
+      "id": 4,
+      "alpha2": "af",
+      "alpha3": "afg",
+      "name": "Afghanistan",
+      "lat": "33.93911",
+      "long": "67.709953",
+      "prefix": 93
+    },
+    {
+      "id": 248,
+      "alpha2": "ax",
+      "alpha3": "ala",
+      "name": "Åland Islands",
+      "lat": "60.3385",
+      "long": "20.2713",
+      "prefix": 358
+    },
+    {
+      "id": 8,
+      "alpha2": "al",
+      "alpha3": "alb",
+      "name": "Albania",
+      "lat": "41.153332",
+      "long": "20.168331",
+      "prefix": 355
+    },
+    {
+      "id": 12,
+      "alpha2": "dz",
+      "alpha3": "dza",
+      "name": "Algeria",
+      "lat": "28.033886",
+      "long": "1.659626",
+      "prefix": 213
+    },
+    {
+      "id": 16,
+      "alpha2": "as",
+      "alpha3": "asm",
+      "name": "American Samoa",
+      "lat": "-14.270972",
+      "long": "-170.132217",
+      "prefix": 1684
+    },
+    {
+      "id": 20,
+      "alpha2": "ad",
+      "alpha3": "and",
+      "name": "Andorra",
+      "lat": "42.546245",
+      "long": "1.601554",
+      "prefix": 376
+    },
+    {
+      "id": 24,
+      "alpha2": "ao",
+      "alpha3": "ago",
+      "name": "Angola",
+      "lat": "-11.202692",
+      "long": "17.873887",
+      "prefix": 244
+    },
+    {
+      "id": 660,
+      "alpha2": "ai",
+      "alpha3": "aia",
+      "name": "Anguilla",
+      "lat": "18.220554",
+      "long": "-63.068615",
+      "prefix": 1264
+    },
+    {
+      "id": 10,
+      "alpha2": "aq",
+      "alpha3": "ata",
+      "name": "Antarctica",
+      "lat": "-75.250973",
+      "long": "-0.071389",
+      "prefix": 672
+    },
+    {
+      "id": 28,
+      "alpha2": "ag",
+      "alpha3": "atg",
+      "name": "Antigua and Barbuda",
+      "lat": "17.060816",
+      "long": "-61.796428",
+      "prefix": 1268
+    },
+    {
+      "id": 32,
+      "alpha2": "ar",
+      "alpha3": "arg",
+      "name": "Argentina",
+      "lat": "-38.416097",
+      "long": "-63.616672",
+      "prefix": 54
+    },
+    {
+      "id": 51,
+      "alpha2": "am",
+      "alpha3": "arm",
+      "name": "Armenia",
+      "lat": "40.069099",
+      "long": "45.038189",
+      "prefix": 374
+    },
+    {
+      "id": 533,
+      "alpha2": "aw",
+      "alpha3": "abw",
+      "name": "Aruba",
+      "lat": "12.52111",
+      "long": "-69.968338",
+      "prefix": 297
+    },
+    {
+      "id": 36,
+      "alpha2": "au",
+      "alpha3": "aus",
+      "name": "Australia",
+      "lat": "-25.274398",
+      "long": "133.775136",
+      "prefix": 61
+    },
+    {
+      "id": 40,
+      "alpha2": "at",
+      "alpha3": "aut",
+      "name": "Austria",
+      "lat": "47.516231",
+      "long": "14.550072",
+      "prefix": 43
+    },
+    {
+      "id": 31,
+      "alpha2": "az",
+      "alpha3": "aze",
+      "name": "Azerbaijan",
+      "lat": "40.143105",
+      "long": "47.576927",
+      "prefix": 994
+    },
+    {
+      "id": 44,
+      "alpha2": "bs",
+      "alpha3": "bhs",
+      "name": "Bahamas",
+      "lat": "25.03428",
+      "long": "-77.39628",
+      "prefix": 1242
+    },
+    {
+      "id": 48,
+      "alpha2": "bh",
+      "alpha3": "bhr",
+      "name": "Bahrain",
+      "lat": "25.930414",
+      "long": "50.637772",
+      "prefix": 973
+    },
+    {
+      "id": 50,
+      "alpha2": "bd",
+      "alpha3": "bgd",
+      "name": "Bangladesh",
+      "lat": "23.684994",
+      "long": "90.356331",
+      "prefix": 880
+    },
+    {
+      "id": 52,
+      "alpha2": "bb",
+      "alpha3": "brb",
+      "name": "Barbados",
+      "lat": "13.193887",
+      "long": "-59.543198",
+      "prefix": 1246
+    },
+    {
+      "id": 112,
+      "alpha2": "by",
+      "alpha3": "blr",
+      "name": "Belarus",
+      "lat": "53.709807",
+      "long": "27.953389",
+      "prefix": 375
+    },
+    {
+      "id": 56,
+      "alpha2": "be",
+      "alpha3": "bel",
+      "name": "Belgium",
+      "lat": "50.503887",
+      "long": "4.469936",
+      "prefix": 32
+    },
+    {
+      "id": 84,
+      "alpha2": "bz",
+      "alpha3": "blz",
+      "name": "Belize",
+      "lat": "17.189877",
+      "long": "-88.49765",
+      "prefix": 501
+    },
+    {
+      "id": 204,
+      "alpha2": "bj",
+      "alpha3": "ben",
+      "name": "Benin",
+      "lat": "9.30769",
+      "long": "2.315834",
+      "prefix": 229
+    },
+    {
+      "id": 60,
+      "alpha2": "bm",
+      "alpha3": "bmu",
+      "name": "Bermuda",
+      "lat": "32.321384",
+      "long": "-64.75737",
+      "prefix": 1441
+    },
+    {
+      "id": 64,
+      "alpha2": "bt",
+      "alpha3": "btn",
+      "name": "Bhutan",
+      "lat": "27.514162",
+      "long": "90.433601",
+      "prefix": 975
+    },
+    {
+      "id": 68,
+      "alpha2": "bo",
+      "alpha3": "bol",
+      "name": "Bolivia (Plurinational State of)",
+      "lat": "-16.290154",
+      "long": "-63.588653",
+      "prefix": 591
+    },
+    {
+      "id": 535,
+      "alpha2": "bq",
+      "alpha3": "bes",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "lat": "12.1784",
+      "long": "-68.2385",
+      "prefix": 5993
+    },
+    {
+      "id": 70,
+      "alpha2": "ba",
+      "alpha3": "bih",
+      "name": "Bosnia and Herzegovina",
+      "lat": "43.915886",
+      "long": "17.679076",
+      "prefix": 387
+    },
+    {
+      "id": 72,
+      "alpha2": "bw",
+      "alpha3": "bwa",
+      "name": "Botswana",
+      "lat": "-22.328474",
+      "long": "24.684866",
+      "prefix": 267
+    },
+    {
+      "id": 74,
+      "alpha2": "bv",
+      "alpha3": "bvt",
+      "name": "Bouvet Island",
+      "lat": "-54.423199",
+      "long": "3.413194",
+      "prefix": 47
+    },
+    {
+      "id": 76,
+      "alpha2": "br",
+      "alpha3": "bra",
+      "name": "Brazil",
+      "lat": "-14.235004",
+      "long": "-51.92528",
+      "prefix": 55
+    },
+    {
+      "id": 86,
+      "alpha2": "io",
+      "alpha3": "iot",
+      "name": "British Indian Ocean Territory",
+      "lat": "-6.343194",
+      "long": "71.876519",
+      "prefix": 246
+    },
+    {
+      "id": 96,
+      "alpha2": "bn",
+      "alpha3": "brn",
+      "name": "Brunei Darussalam",
+      "lat": "4.535277",
+      "long": "114.727669",
+      "prefix": 673
+    },
+    {
+      "id": 100,
+      "alpha2": "bg",
+      "alpha3": "bgr",
+      "name": "Bulgaria",
+      "lat": "42.733883",
+      "long": "25.48583",
+      "prefix": 359
+    },
+    {
+      "id": 854,
+      "alpha2": "bf",
+      "alpha3": "bfa",
+      "name": "Burkina Faso",
+      "lat": "12.238333",
+      "long": "-1.561593",
+      "prefix": 226
+    },
+    {
+      "id": 108,
+      "alpha2": "bi",
+      "alpha3": "bdi",
+      "name": "Burundi",
+      "lat": "-3.373056",
+      "long": "29.918886",
+      "prefix": 257
+    },
+    {
+      "id": 132,
+      "alpha2": "cv",
+      "alpha3": "cpv",
+      "name": "Cabo Verde",
+      "lat": "16.002082",
+      "long": "-24.013197",
+      "prefix": 238
+    },
+    {
+      "id": 116,
+      "alpha2": "kh",
+      "alpha3": "khm",
+      "name": "Cambodia",
+      "lat": "12.565679",
+      "long": "104.990963",
+      "prefix": 855
+    },
+    {
+      "id": 120,
+      "alpha2": "cm",
+      "alpha3": "cmr",
+      "name": "Cameroon",
+      "lat": "7.369722",
+      "long": "12.354722",
+      "prefix": 237
+    },
+    {
+      "id": 124,
+      "alpha2": "ca",
+      "alpha3": "can",
+      "name": "Canada",
+      "lat": "56.130366",
+      "long": "-106.346771",
+      "prefix": 1
+    },
+    {
+      "id": 136,
+      "alpha2": "ky",
+      "alpha3": "cym",
+      "name": "Cayman Islands",
+      "lat": "19.513469",
+      "long": "-80.566956",
+      "prefix": 345
+    },
+    {
+      "id": 140,
+      "alpha2": "cf",
+      "alpha3": "caf",
+      "name": "Central African Republic",
+      "lat": "6.611111",
+      "long": "20.939444",
+      "prefix": 236
+    },
+    {
+      "id": 148,
+      "alpha2": "td",
+      "alpha3": "tcd",
+      "name": "Chad",
+      "lat": "15.454166",
+      "long": "18.732207",
+      "prefix": 235
+    },
+    {
+      "id": 152,
+      "alpha2": "cl",
+      "alpha3": "chl",
+      "name": "Chile",
+      "lat": "-35.675147",
+      "long": "-71.542969",
+      "prefix": 56
+    },
+    {
+      "id": 156,
+      "alpha2": "cn",
+      "alpha3": "chn",
+      "name": "China",
+      "lat": "35.86166",
+      "long": "104.195397",
+      "prefix": 86
+    },
+    {
+      "id": 162,
+      "alpha2": "cx",
+      "alpha3": "cxr",
+      "name": "Christmas Island",
+      "lat": "-10.447525",
+      "long": "105.690449",
+      "prefix": 61
+    },
+    {
+      "id": 166,
+      "alpha2": "cc",
+      "alpha3": "cck",
+      "name": "Cocos (Keeling) Islands",
+      "lat": "-12.164165",
+      "long": "96.870956",
+      "prefix": 61
+    },
+    {
+      "id": 170,
+      "alpha2": "co",
+      "alpha3": "col",
+      "name": "Colombia",
+      "lat": "4.570868",
+      "long": "-74.297333",
+      "prefix": 57
+    },
+    {
+      "id": 174,
+      "alpha2": "km",
+      "alpha3": "com",
+      "name": "Comoros",
+      "lat": "-11.875001",
+      "long": "43.872219",
+      "prefix": 269
+    },
+    {
+      "id": 178,
+      "alpha2": "cg",
+      "alpha3": "cog",
+      "name": "Congo",
+      "lat": "-0.228021",
+      "long": "15.827659",
+      "prefix": 242
+    },
+    {
+      "id": 180,
+      "alpha2": "cd",
+      "alpha3": "cod",
+      "name": "Congo, Democratic Republic of the",
+      "lat": "-4.038333",
+      "long": "21.758664",
+      "prefix": 243
+    },
+    {
+      "id": 184,
+      "alpha2": "ck",
+      "alpha3": "cok",
+      "name": "Cook Islands",
+      "lat": "-21.236736",
+      "long": "-159.777671",
+      "prefix": 682
+    },
+    {
+      "id": 188,
+      "alpha2": "cr",
+      "alpha3": "cri",
+      "name": "Costa Rica",
+      "lat": "9.748917",
+      "long": "-83.753428",
+      "prefix": 506
+    },
+    {
+      "id": 384,
+      "alpha2": "ci",
+      "alpha3": "civ",
+      "name": "Côte d'Ivoire",
+      "lat": "7.539989",
+      "long": "-5.54708",
+      "prefix": 225
+    },
+    {
+      "id": 191,
+      "alpha2": "hr",
+      "alpha3": "hrv",
+      "name": "Croatia",
+      "lat": "45.1",
+      "long": "15.2",
+      "prefix": 385
+    },
+    {
+      "id": 192,
+      "alpha2": "cu",
+      "alpha3": "cub",
+      "name": "Cuba",
+      "lat": "21.521757",
+      "long": "-77.781167",
+      "prefix": 53
+    },
+    {
+      "id": 531,
+      "alpha2": "cw",
+      "alpha3": "cuw",
+      "name": "Curaçao",
+      "lat": "12.1696",
+      "long": "-68.99",
+      "prefix": 599
+    },
+    {
+      "id": 196,
+      "alpha2": "cy",
+      "alpha3": "cyp",
+      "name": "Cyprus",
+      "lat": "35.126413",
+      "long": "33.429859",
+      "prefix": 537
+    },
+    {
+      "id": 203,
+      "alpha2": "cz",
+      "alpha3": "cze",
+      "name": "Czechia",
+      "lat": "49.817492",
+      "long": "15.472962",
+      "prefix": 420
+    },
+    {
+      "id": 208,
+      "alpha2": "dk",
+      "alpha3": "dnk",
+      "name": "Denmark",
+      "lat": "56.26392",
+      "long": "9.501785",
+      "prefix": 45
+    },
+    {
+      "id": 262,
+      "alpha2": "dj",
+      "alpha3": "dji",
+      "name": "Djibouti",
+      "lat": "11.825138",
+      "long": "42.590275",
+      "prefix": 253
+    },
+    {
+      "id": 212,
+      "alpha2": "dm",
+      "alpha3": "dma",
+      "name": "Dominica",
+      "lat": "15.414999",
+      "long": "-61.370976",
+      "prefix": 1767
+    },
+    {
+      "id": 214,
+      "alpha2": "do",
+      "alpha3": "dom",
+      "name": "Dominican Republic",
+      "lat": "18.735693",
+      "long": "-70.162651",
+      "prefix": 1849
+    },
+    {
+      "id": 218,
+      "alpha2": "ec",
+      "alpha3": "ecu",
+      "name": "Ecuador",
+      "lat": "-1.831239",
+      "long": "-78.183406",
+      "prefix": 593
+    },
+    {
+      "id": 818,
+      "alpha2": "eg",
+      "alpha3": "egy",
+      "name": "Egypt",
+      "lat": "26.820553",
+      "long": "30.802498",
+      "prefix": 20
+    },
+    {
+      "id": 222,
+      "alpha2": "sv",
+      "alpha3": "slv",
+      "name": "El Salvador",
+      "lat": "13.794185",
+      "long": "-88.89653",
+      "prefix": 503
+    },
+    {
+      "id": 226,
+      "alpha2": "gq",
+      "alpha3": "gnq",
+      "name": "Equatorial Guinea",
+      "lat": "1.650801",
+      "long": "10.267895",
+      "prefix": 240
+    },
+    {
+      "id": 232,
+      "alpha2": "er",
+      "alpha3": "eri",
+      "name": "Eritrea",
+      "lat": "15.179384",
+      "long": "39.782334",
+      "prefix": 291
+    },
+    {
+      "id": 233,
+      "alpha2": "ee",
+      "alpha3": "est",
+      "name": "Estonia",
+      "lat": "58.595272",
+      "long": "25.013607",
+      "prefix": 372
+    },
+    {
+      "id": 748,
+      "alpha2": "sz",
+      "alpha3": "swz",
+      "name": "Eswatini",
+      "lat": "-26.522503",
+      "long": "31.465866",
+      "prefix": 268
+    },
+    {
+      "id": 231,
+      "alpha2": "et",
+      "alpha3": "eth",
+      "name": "Ethiopia",
+      "lat": "9.145",
+      "long": "40.489673",
+      "prefix": 251
+    },
+    {
+      "id": 238,
+      "alpha2": "fk",
+      "alpha3": "flk",
+      "name": "Falkland Islands (Malvinas)",
+      "lat": "-51.796253",
+      "long": "-59.523613",
+      "prefix": 500
+    },
+    {
+      "id": 234,
+      "alpha2": "fo",
+      "alpha3": "fro",
+      "name": "Faroe Islands",
+      "lat": "61.892635",
+      "long": "-6.911806",
+      "prefix": 298
+    },
+    {
+      "id": 242,
+      "alpha2": "fj",
+      "alpha3": "fji",
+      "name": "Fiji",
+      "lat": "-16.578193",
+      "long": "179.414413",
+      "prefix": 679
+    },
+    {
+      "id": 246,
+      "alpha2": "fi",
+      "alpha3": "fin",
+      "name": "Finland",
+      "lat": "61.92411",
+      "long": "25.748151",
+      "prefix": 358
+    },
+    {
+      "id": 250,
+      "alpha2": "fr",
+      "alpha3": "fra",
+      "name": "France",
+      "lat": "46.227638",
+      "long": "2.213749",
+      "prefix": 33
+    },
+    {
+      "id": 254,
+      "alpha2": "gf",
+      "alpha3": "guf",
+      "name": "French Guiana",
+      "lat": "3.933889",
+      "long": "-53.125782",
+      "prefix": 594
+    },
+    {
+      "id": 258,
+      "alpha2": "pf",
+      "alpha3": "pyf",
+      "name": "French Polynesia",
+      "lat": "-17.679742",
+      "long": "-149.406843",
+      "prefix": 689
+    },
+    {
+      "id": 260,
+      "alpha2": "tf",
+      "alpha3": "atf",
+      "name": "French Southern Territories",
+      "lat": "-49.280366",
+      "long": "69.348557",
+      "prefix": 262
+    },
+    {
+      "id": 266,
+      "alpha2": "ga",
+      "alpha3": "gab",
+      "name": "Gabon",
+      "lat": "-0.803689",
+      "long": "11.609444",
+      "prefix": 241
+    },
+    {
+      "id": 270,
+      "alpha2": "gm",
+      "alpha3": "gmb",
+      "name": "Gambia",
+      "lat": "13.443182",
+      "long": "-15.310139",
+      "prefix": 220
+    },
+    {
+      "id": 268,
+      "alpha2": "ge",
+      "alpha3": "geo",
+      "name": "Georgia",
+      "lat": "42.315407",
+      "long": "43.356892",
+      "prefix": 995
+    },
+    {
+      "id": 276,
+      "alpha2": "de",
+      "alpha3": "deu",
+      "name": "Germany",
+      "lat": "51.165691",
+      "long": "10.451526",
+      "prefix": 49
+    },
+    {
+      "id": 288,
+      "alpha2": "gh",
+      "alpha3": "gha",
+      "name": "Ghana",
+      "lat": "7.946527",
+      "long": "-1.023194",
+      "prefix": 233
+    },
+    {
+      "id": 292,
+      "alpha2": "gi",
+      "alpha3": "gib",
+      "name": "Gibraltar",
+      "lat": "36.137741",
+      "long": "-5.345374",
+      "prefix": 350
+    },
+    {
+      "id": 300,
+      "alpha2": "gr",
+      "alpha3": "grc",
+      "name": "Greece",
+      "lat": "39.074208",
+      "long": "21.824312",
+      "prefix": 30
+    },
+    {
+      "id": 304,
+      "alpha2": "gl",
+      "alpha3": "grl",
+      "name": "Greenland",
+      "lat": "71.706936",
+      "long": "-42.604303",
+      "prefix": 299
+    },
+    {
+      "id": 308,
+      "alpha2": "gd",
+      "alpha3": "grd",
+      "name": "Grenada",
+      "lat": "12.262776",
+      "long": "-61.604171",
+      "prefix": 1473
+    },
+    {
+      "id": 312,
+      "alpha2": "gp",
+      "alpha3": "glp",
+      "name": "Guadeloupe",
+      "lat": "16.995971",
+      "long": "-62.067641",
+      "prefix": 590
+    },
+    {
+      "id": 316,
+      "alpha2": "gu",
+      "alpha3": "gum",
+      "name": "Guam",
+      "lat": "13.444304",
+      "long": "144.793731",
+      "prefix": 1671
+    },
+    {
+      "id": 320,
+      "alpha2": "gt",
+      "alpha3": "gtm",
+      "name": "Guatemala",
+      "lat": "15.783471",
+      "long": "-90.230759",
+      "prefix": 502
+    },
+    {
+      "id": 831,
+      "alpha2": "gg",
+      "alpha3": "ggy",
+      "name": "Guernsey",
+      "lat": "49.465691",
+      "long": "-2.585278",
+      "prefix": 44
+    },
+    {
+      "id": 324,
+      "alpha2": "gn",
+      "alpha3": "gin",
+      "name": "Guinea",
+      "lat": "9.945587",
+      "long": "-9.696645",
+      "prefix": 224
+    },
+    {
+      "id": 624,
+      "alpha2": "gw",
+      "alpha3": "gnb",
+      "name": "Guinea-Bissau",
+      "lat": "11.803749",
+      "long": "-15.180413",
+      "prefix": 245
+    },
+    {
+      "id": 328,
+      "alpha2": "gy",
+      "alpha3": "guy",
+      "name": "Guyana",
+      "lat": "4.860416",
+      "long": "-58.93018",
+      "prefix": 595
+    },
+    {
+      "id": 332,
+      "alpha2": "ht",
+      "alpha3": "hti",
+      "name": "Haiti",
+      "lat": "18.971187",
+      "long": "-72.285215",
+      "prefix": 509
+    },
+    {
+      "id": 334,
+      "alpha2": "hm",
+      "alpha3": "hmd",
+      "name": "Heard Island and McDonald Islands",
+      "lat": "-53.08181",
+      "long": "73.504158",
+      "prefix": 61
+    },
+    {
+      "id": 336,
+      "alpha2": "va",
+      "alpha3": "vat",
+      "name": "Holy See",
+      "lat": "41.902916",
+      "long": "12.453389",
+      "prefix": 379
+    },
+    {
+      "id": 340,
+      "alpha2": "hn",
+      "alpha3": "hnd",
+      "name": "Honduras",
+      "lat": "15.199999",
+      "long": "-86.241905",
+      "prefix": 504
+    },
+    {
+      "id": 344,
+      "alpha2": "hk",
+      "alpha3": "hkg",
+      "name": "Hong Kong",
+      "lat": "22.396428",
+      "long": "114.109497",
+      "prefix": 852
+    },
+    {
+      "id": 348,
+      "alpha2": "hu",
+      "alpha3": "hun",
+      "name": "Hungary",
+      "lat": "47.162494",
+      "long": "19.503304",
+      "prefix": 36
+    },
+    {
+      "id": 352,
+      "alpha2": "is",
+      "alpha3": "isl",
+      "name": "Iceland",
+      "lat": "64.963051",
+      "long": "-19.020835",
+      "prefix": 354
+    },
+    {
+      "id": 356,
+      "alpha2": "in",
+      "alpha3": "ind",
+      "name": "India",
+      "lat": "20.593684",
+      "long": "78.96288",
+      "prefix": 91
+    },
+    {
+      "id": 360,
+      "alpha2": "id",
+      "alpha3": "idn",
+      "name": "Indonesia",
+      "lat": "-0.789275",
+      "long": "113.921327",
+      "prefix": 62
+    },
+    {
+      "id": 364,
+      "alpha2": "ir",
+      "alpha3": "irn",
+      "name": "Iran (Islamic Republic of)",
+      "lat": "32.427908",
+      "long": "53.688046",
+      "prefix": 98
+    },
+    {
+      "id": 368,
+      "alpha2": "iq",
+      "alpha3": "irq",
+      "name": "Iraq",
+      "lat": "33.223191",
+      "long": "43.679291",
+      "prefix": 964
+    },
+    {
+      "id": 372,
+      "alpha2": "ie",
+      "alpha3": "irl",
+      "name": "Ireland",
+      "lat": "53.41291",
+      "long": "-8.24389",
+      "prefix": 353
+    },
+    {
+      "id": 833,
+      "alpha2": "im",
+      "alpha3": "imn",
+      "name": "Isle of Man",
+      "lat": "54.236107",
+      "long": "-4.548056",
+      "prefix": 44
+    },
+    {
+      "id": 376,
+      "alpha2": "il",
+      "alpha3": "isr",
+      "name": "Israel",
+      "lat": "31.046051",
+      "long": "34.851612",
+      "prefix": 972
+    },
+    {
+      "id": 380,
+      "alpha2": "it",
+      "alpha3": "ita",
+      "name": "Italy",
+      "lat": "41.87194",
+      "long": "12.56738",
+      "prefix": 39
+    },
+    {
+      "id": 388,
+      "alpha2": "jm",
+      "alpha3": "jam",
+      "name": "Jamaica",
+      "lat": "18.109581",
+      "long": "-77.297508",
+      "prefix": 1876
+    },
+    {
+      "id": 392,
+      "alpha2": "jp",
+      "alpha3": "jpn",
+      "name": "Japan",
+      "lat": "36.204824",
+      "long": "138.252924",
+      "prefix": 81
+    },
+    {
+      "id": 832,
+      "alpha2": "je",
+      "alpha3": "jey",
+      "name": "Jersey",
+      "lat": "49.214439",
+      "long": "-2.13125",
+      "prefix": 44
+    },
+    {
+      "id": 400,
+      "alpha2": "jo",
+      "alpha3": "jor",
+      "name": "Jordan",
+      "lat": "30.585164",
+      "long": "36.238414",
+      "prefix": 962
+    },
+    {
+      "id": 398,
+      "alpha2": "kz",
+      "alpha3": "kaz",
+      "name": "Kazakhstan",
+      "lat": "48.019573",
+      "long": "66.923684",
+      "prefix": 7
+    },
+    {
+      "id": 404,
+      "alpha2": "ke",
+      "alpha3": "ken",
+      "name": "Kenya",
+      "lat": "-0.023559",
+      "long": "37.906193",
+      "prefix": 254
+    },
+    {
+      "id": 296,
+      "alpha2": "ki",
+      "alpha3": "kir",
+      "name": "Kiribati",
+      "lat": "-3.370417",
+      "long": "-168.734039",
+      "prefix": 686
+    },
+    {
+      "id": 408,
+      "alpha2": "kp",
+      "alpha3": "prk",
+      "name": "Korea (Democratic People's Republic of)",
+      "lat": "40.339852",
+      "long": "127.510093",
+      "prefix": 850
+    },
+    {
+      "id": 410,
+      "alpha2": "kr",
+      "alpha3": "kor",
+      "name": "Korea, Republic of",
+      "lat": "35.907757",
+      "long": "127.766922",
+      "prefix": 82
+    },
+    {
+      "id": 414,
+      "alpha2": "kw",
+      "alpha3": "kwt",
+      "name": "Kuwait",
+      "lat": "29.31166",
+      "long": "47.481766",
+      "prefix": 965
+    },
+    {
+      "id": 417,
+      "alpha2": "kg",
+      "alpha3": "kgz",
+      "name": "Kyrgyzstan",
+      "lat": "41.20438",
+      "long": "74.766098",
+      "prefix": 996
+    },
+    {
+      "id": 418,
+      "alpha2": "la",
+      "alpha3": "lao",
+      "name": "Lao People's Democratic Republic",
+      "lat": "19.85627",
+      "long": "102.495496",
+      "prefix": 856
+    },
+    {
+      "id": 428,
+      "alpha2": "lv",
+      "alpha3": "lva",
+      "name": "Latvia",
+      "lat": "56.879635",
+      "long": "24.603189",
+      "prefix": 371
+    },
+    {
+      "id": 422,
+      "alpha2": "lb",
+      "alpha3": "lbn",
+      "name": "Lebanon",
+      "lat": "33.854721",
+      "long": "35.862285",
+      "prefix": 961
+    },
+    {
+      "id": 426,
+      "alpha2": "ls",
+      "alpha3": "lso",
+      "name": "Lesotho",
+      "lat": "-29.609988",
+      "long": "28.233608",
+      "prefix": 266
+    },
+    {
+      "id": 430,
+      "alpha2": "lr",
+      "alpha3": "lbr",
+      "name": "Liberia",
+      "lat": "6.428055",
+      "long": "-9.429499",
+      "prefix": 231
+    },
+    {
+      "id": 434,
+      "alpha2": "ly",
+      "alpha3": "lby",
+      "name": "Libya",
+      "lat": "26.3351",
+      "long": "17.228331",
+      "prefix": 218
+    },
+    {
+      "id": 438,
+      "alpha2": "li",
+      "alpha3": "lie",
+      "name": "Liechtenstein",
+      "lat": "47.166",
+      "long": "9.555373",
+      "prefix": 423
+    },
+    {
+      "id": 440,
+      "alpha2": "lt",
+      "alpha3": "ltu",
+      "name": "Lithuania",
+      "lat": "55.169438",
+      "long": "23.881275",
+      "prefix": 370
+    },
+    {
+      "id": 442,
+      "alpha2": "lu",
+      "alpha3": "lux",
+      "name": "Luxembourg",
+      "lat": "49.815273",
+      "long": "6.129583",
+      "prefix": 352
+    },
+    {
+      "id": 446,
+      "alpha2": "mo",
+      "alpha3": "mac",
+      "name": "Macao",
+      "lat": "22.198745",
+      "long": "113.543873",
+      "prefix": 853
+    },
+    {
+      "id": 450,
+      "alpha2": "mg",
+      "alpha3": "mdg",
+      "name": "Madagascar",
+      "lat": "-18.766947",
+      "long": "46.869107",
+      "prefix": 261
+    },
+    {
+      "id": 454,
+      "alpha2": "mw",
+      "alpha3": "mwi",
+      "name": "Malawi",
+      "lat": "-13.254308",
+      "long": "34.301525",
+      "prefix": 265
+    },
+    {
+      "id": 458,
+      "alpha2": "my",
+      "alpha3": "mys",
+      "name": "Malaysia",
+      "lat": "4.210484",
+      "long": "101.975766",
+      "prefix": 60
+    },
+    {
+      "id": 462,
+      "alpha2": "mv",
+      "alpha3": "mdv",
+      "name": "Maldives",
+      "lat": "3.202778",
+      "long": "73.22068",
+      "prefix": 960
+    },
+    {
+      "id": 466,
+      "alpha2": "ml",
+      "alpha3": "mli",
+      "name": "Mali",
+      "lat": "17.570692",
+      "long": "-3.996166",
+      "prefix": 223
+    },
+    {
+      "id": 470,
+      "alpha2": "mt",
+      "alpha3": "mlt",
+      "name": "Malta",
+      "lat": "35.937496",
+      "long": "14.375416",
+      "prefix": 356
+    },
+    {
+      "id": 584,
+      "alpha2": "mh",
+      "alpha3": "mhl",
+      "name": "Marshall Islands",
+      "lat": "7.131474",
+      "long": "171.184478",
+      "prefix": 692
+    },
+    {
+      "id": 474,
+      "alpha2": "mq",
+      "alpha3": "mtq",
+      "name": "Martinique",
+      "lat": "14.641528",
+      "long": "-61.024174",
+      "prefix": 596
+    },
+    {
+      "id": 478,
+      "alpha2": "mr",
+      "alpha3": "mrt",
+      "name": "Mauritania",
+      "lat": "21.00789",
+      "long": "-10.940835",
+      "prefix": 222
+    },
+    {
+      "id": 480,
+      "alpha2": "mu",
+      "alpha3": "mus",
+      "name": "Mauritius",
+      "lat": "-20.348404",
+      "long": "57.552152",
+      "prefix": 230
+    },
+    {
+      "id": 175,
+      "alpha2": "yt",
+      "alpha3": "myt",
+      "name": "Mayotte",
+      "lat": "-12.8275",
+      "long": "45.1662",
+      "prefix": 262
+    },
+    {
+      "id": 484,
+      "alpha2": "mx",
+      "alpha3": "mex",
+      "name": "Mexico",
+      "lat": "23.634501",
+      "long": "-102.552784",
+      "prefix": 52
+    },
+    {
+      "id": 583,
+      "alpha2": "fm",
+      "alpha3": "fsm",
+      "name": "Micronesia (Federated States of)",
+      "lat": "7.425554",
+      "long": "150.550812",
+      "prefix": 691
+    },
+    {
+      "id": 498,
+      "alpha2": "md",
+      "alpha3": "mda",
+      "name": "Moldova, Republic of",
+      "lat": "47.411631",
+      "long": "28.369885",
+      "prefix": 373
+    },
+    {
+      "id": 492,
+      "alpha2": "mc",
+      "alpha3": "mco",
+      "name": "Monaco",
+      "lat": "43.750298",
+      "long": "7.412841",
+      "prefix": 377
+    },
+    {
+      "id": 496,
+      "alpha2": "mn",
+      "alpha3": "mng",
+      "name": "Mongolia",
+      "lat": "46.862496",
+      "long": "103.846656",
+      "prefix": 976
+    },
+    {
+      "id": 499,
+      "alpha2": "me",
+      "alpha3": "mne",
+      "name": "Montenegro",
+      "lat": "42.708678",
+      "long": "19.37439",
+      "prefix": 382
+    },
+    {
+      "id": 500,
+      "alpha2": "ms",
+      "alpha3": "msr",
+      "name": "Montserrat",
+      "lat": "16.742498",
+      "long": "-62.187366",
+      "prefix": 1664
+    },
+    {
+      "id": 504,
+      "alpha2": "ma",
+      "alpha3": "mar",
+      "name": "Morocco",
+      "lat": "31.791702",
+      "long": "-7.09262",
+      "prefix": 212
+    },
+    {
+      "id": 508,
+      "alpha2": "mz",
+      "alpha3": "moz",
+      "name": "Mozambique",
+      "lat": "-18.665695",
+      "long": "35.529562",
+      "prefix": 258
+    },
+    {
+      "id": 104,
+      "alpha2": "mm",
+      "alpha3": "mmr",
+      "name": "Myanmar",
+      "lat": "21.913965",
+      "long": "95.956223",
+      "prefix": 95
+    },
+    {
+      "id": 516,
+      "alpha2": "na",
+      "alpha3": "nam",
+      "name": "Namibia",
+      "lat": "-22.95764",
+      "long": "18.49041",
+      "prefix": 264
+    },
+    {
+      "id": 520,
+      "alpha2": "nr",
+      "alpha3": "nru",
+      "name": "Nauru",
+      "lat": "-0.522778",
+      "long": "166.931503",
+      "prefix": 674
+    },
+    {
+      "id": 524,
+      "alpha2": "np",
+      "alpha3": "npl",
+      "name": "Nepal",
+      "lat": "28.394857",
+      "long": "84.124008",
+      "prefix": 977
+    },
+    {
+      "id": 528,
+      "alpha2": "nl",
+      "alpha3": "nld",
+      "name": "Netherlands",
+      "lat": "52.132633",
+      "long": "5.291266",
+      "prefix": 31
+    },
+    {
+      "id": 540,
+      "alpha2": "nc",
+      "alpha3": "ncl",
+      "name": "New Caledonia",
+      "lat": "-20.904305",
+      "long": "165.618042",
+      "prefix": 687
+    },
+    {
+      "id": 554,
+      "alpha2": "nz",
+      "alpha3": "nzl",
+      "name": "New Zealand",
+      "lat": "-40.900557",
+      "long": "174.885971",
+      "prefix": 64
+    },
+    {
+      "id": 558,
+      "alpha2": "ni",
+      "alpha3": "nic",
+      "name": "Nicaragua",
+      "lat": "12.865416",
+      "long": "-85.207229",
+      "prefix": 505
+    },
+    {
+      "id": 562,
+      "alpha2": "ne",
+      "alpha3": "ner",
+      "name": "Niger",
+      "lat": "17.607789",
+      "long": "8.081666",
+      "prefix": 227
+    },
+    {
+      "id": 566,
+      "alpha2": "ng",
+      "alpha3": "nga",
+      "name": "Nigeria",
+      "lat": "9.081999",
+      "long": "8.675277",
+      "prefix": 234
+    },
+    {
+      "id": 570,
+      "alpha2": "nu",
+      "alpha3": "niu",
+      "name": "Niue",
+      "lat": "-19.054445",
+      "long": "-169.867233",
+      "prefix": 683
+    },
+    {
+      "id": 574,
+      "alpha2": "nf",
+      "alpha3": "nfk",
+      "name": "Norfolk Island",
+      "lat": "-29.040835",
+      "long": "167.954712",
+      "prefix": 672
+    },
+    {
+      "id": 807,
+      "alpha2": "mk",
+      "alpha3": "mkd",
+      "name": "North Macedonia",
+      "lat": "41.608635",
+      "long": "21.745275",
+      "prefix": 389
+    },
+    {
+      "id": 580,
+      "alpha2": "mp",
+      "alpha3": "mnp",
+      "name": "Northern Mariana Islands",
+      "lat": "17.33083",
+      "long": "145.38469",
+      "prefix": 1670
+    },
+    {
+      "id": 578,
+      "alpha2": "no",
+      "alpha3": "nor",
+      "name": "Norway",
+      "lat": "60.472024",
+      "long": "8.468946",
+      "prefix": 47
+    },
+    {
+      "id": 512,
+      "alpha2": "om",
+      "alpha3": "omn",
+      "name": "Oman",
+      "lat": "21.512583",
+      "long": "55.923255",
+      "prefix": 968
+    },
+    {
+      "id": 586,
+      "alpha2": "pk",
+      "alpha3": "pak",
+      "name": "Pakistan",
+      "lat": "30.375321",
+      "long": "69.345116",
+      "prefix": 92
+    },
+    {
+      "id": 585,
+      "alpha2": "pw",
+      "alpha3": "plw",
+      "name": "Palau",
+      "lat": "7.51498",
+      "long": "134.58252",
+      "prefix": 680
+    },
+    {
+      "id": 275,
+      "alpha2": "ps",
+      "alpha3": "pse",
+      "name": "Palestine, State of",
+      "lat": "31.952162",
+      "long": "35.233154",
+      "prefix": 970
+    },
+    {
+      "id": 591,
+      "alpha2": "pa",
+      "alpha3": "pan",
+      "name": "Panama",
+      "lat": "8.537981",
+      "long": "-80.782127",
+      "prefix": 507
+    },
+    {
+      "id": 598,
+      "alpha2": "pg",
+      "alpha3": "png",
+      "name": "Papua New Guinea",
+      "lat": "-6.314993",
+      "long": "143.95555",
+      "prefix": 675
+    },
+    {
+      "id": 600,
+      "alpha2": "py",
+      "alpha3": "pry",
+      "name": "Paraguay",
+      "lat": "-23.442503",
+      "long": "-58.443832",
+      "prefix": 595
+    },
+    {
+      "id": 604,
+      "alpha2": "pe",
+      "alpha3": "per",
+      "name": "Peru",
+      "lat": "-9.189967",
+      "long": "-75.015152",
+      "prefix": 51
+    },
+    {
+      "id": 608,
+      "alpha2": "ph",
+      "alpha3": "phl",
+      "name": "Philippines",
+      "lat": "12.879721",
+      "long": "121.774017",
+      "prefix": 63
+    },
+    {
+      "id": 612,
+      "alpha2": "pn",
+      "alpha3": "pcn",
+      "name": "Pitcairn",
+      "lat": "-24.703615",
+      "long": "-127.439308",
+      "prefix": 872
+    },
+    {
+      "id": 616,
+      "alpha2": "pl",
+      "alpha3": "pol",
+      "name": "Poland",
+      "lat": "51.919438",
+      "long": "19.145136",
+      "prefix": 48
+    },
+    {
+      "id": 620,
+      "alpha2": "pt",
+      "alpha3": "prt",
+      "name": "Portugal",
+      "lat": "39.399872",
+      "long": "-8.224454",
+      "prefix": 351
+    },
+    {
+      "id": 630,
+      "alpha2": "pr",
+      "alpha3": "pri",
+      "name": "Puerto Rico",
+      "lat": "18.220833",
+      "long": "-66.590149",
+      "prefix": 1939
+    },
+    {
+      "id": 634,
+      "alpha2": "qa",
+      "alpha3": "qat",
+      "name": "Qatar",
+      "lat": "25.354826",
+      "long": "51.183884",
+      "prefix": 974
+    },
+    {
+      "id": 638,
+      "alpha2": "re",
+      "alpha3": "reu",
+      "name": "Réunion",
+      "lat": "-21.115141",
+      "long": "55.536384",
+      "prefix": 262
+    },
+    {
+      "id": 642,
+      "alpha2": "ro",
+      "alpha3": "rou",
+      "name": "Romania",
+      "lat": "45.943161",
+      "long": "24.96676",
+      "prefix": 40
+    },
+    {
+      "id": 643,
+      "alpha2": "ru",
+      "alpha3": "rus",
+      "name": "Russian Federation",
+      "lat": "61.52401",
+      "long": "105.318756",
+      "prefix": 7
+    },
+    {
+      "id": 646,
+      "alpha2": "rw",
+      "alpha3": "rwa",
+      "name": "Rwanda",
+      "lat": "-1.940278",
+      "long": "29.873888",
+      "prefix": 250
+    },
+    {
+      "id": 652,
+      "alpha2": "bl",
+      "alpha3": "blm",
+      "name": "Saint Barthélemy",
+      "lat": "17.9",
+      "long": "-62.8333",
+      "prefix": 590
+    },
+    {
+      "id": 654,
+      "alpha2": "sh",
+      "alpha3": "shn",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "lat": "-24.143474",
+      "long": "-10.030696",
+      "prefix": 290
+    },
+    {
+      "id": 659,
+      "alpha2": "kn",
+      "alpha3": "kna",
+      "name": "Saint Kitts and Nevis",
+      "lat": "17.357822",
+      "long": "-62.782998",
+      "prefix": 1869
+    },
+    {
+      "id": 662,
+      "alpha2": "lc",
+      "alpha3": "lca",
+      "name": "Saint Lucia",
+      "lat": "13.909444",
+      "long": "-60.978893",
+      "prefix": 1758
+    },
+    {
+      "id": 663,
+      "alpha2": "mf",
+      "alpha3": "maf",
+      "name": "Saint Martin (French part)",
+      "lat": "18.0826",
+      "long": "-63.0522",
+      "prefix": 590
+    },
+    {
+      "id": 666,
+      "alpha2": "pm",
+      "alpha3": "spm",
+      "name": "Saint Pierre and Miquelon",
+      "lat": "46.941936",
+      "long": "-56.27111",
+      "prefix": 508
+    },
+    {
+      "id": 670,
+      "alpha2": "vc",
+      "alpha3": "vct",
+      "name": "Saint Vincent and the Grenadines",
+      "lat": "12.984305",
+      "long": "-61.287228",
+      "prefix": 1784
+    },
+    {
+      "id": 882,
+      "alpha2": "ws",
+      "alpha3": "wsm",
+      "name": "Samoa",
+      "lat": "-13.759029",
+      "long": "-172.104629",
+      "prefix": 685
+    },
+    {
+      "id": 674,
+      "alpha2": "sm",
+      "alpha3": "smr",
+      "name": "San Marino",
+      "lat": "43.94236",
+      "long": "12.457777",
+      "prefix": 378
+    },
+    {
+      "id": 678,
+      "alpha2": "st",
+      "alpha3": "stp",
+      "name": "Sao Tome and Principe",
+      "lat": "0.18636",
+      "long": "6.613081",
+      "prefix": 239
+    },
+    {
+      "id": 682,
+      "alpha2": "sa",
+      "alpha3": "sau",
+      "name": "Saudi Arabia",
+      "lat": "23.885942",
+      "long": "45.079162",
+      "prefix": 966
+    },
+    {
+      "id": 686,
+      "alpha2": "sn",
+      "alpha3": "sen",
+      "name": "Senegal",
+      "lat": "14.497401",
+      "long": "-14.452362",
+      "prefix": 221
+    },
+    {
+      "id": 688,
+      "alpha2": "rs",
+      "alpha3": "srb",
+      "name": "Serbia",
+      "lat": "44.016521",
+      "long": "21.005859",
+      "prefix": 381
+    },
+    {
+      "id": 690,
+      "alpha2": "sc",
+      "alpha3": "syc",
+      "name": "Seychelles",
+      "lat": "-4.679574",
+      "long": "55.491977",
+      "prefix": 248
+    },
+    {
+      "id": 694,
+      "alpha2": "sl",
+      "alpha3": "sle",
+      "name": "Sierra Leone",
+      "lat": "8.460555",
+      "long": "-11.779889",
+      "prefix": 232
+    },
+    {
+      "id": 702,
+      "alpha2": "sg",
+      "alpha3": "sgp",
+      "name": "Singapore",
+      "lat": "1.352083",
+      "long": "103.819836",
+      "prefix": 65
+    },
+    {
+      "id": 534,
+      "alpha2": "sx",
+      "alpha3": "sxm",
+      "name": "Sint Maarten (Dutch part)",
+      "lat": "18.0826",
+      "long": "-63.0522",
+      "prefix": 599
+    },
+    {
+      "id": 703,
+      "alpha2": "sk",
+      "alpha3": "svk",
+      "name": "Slovakia",
+      "lat": "48.669026",
+      "long": "19.699024",
+      "prefix": 421
+    },
+    {
+      "id": 705,
+      "alpha2": "si",
+      "alpha3": "svn",
+      "name": "Slovenia",
+      "lat": "46.151241",
+      "long": "14.995463",
+      "prefix": 386
+    },
+    {
+      "id": 90,
+      "alpha2": "sb",
+      "alpha3": "slb",
+      "name": "Solomon Islands",
+      "lat": "-9.64571",
+      "long": "160.156194",
+      "prefix": 677
+    },
+    {
+      "id": 706,
+      "alpha2": "so",
+      "alpha3": "som",
+      "name": "Somalia",
+      "lat": "5.152149",
+      "long": "46.199616",
+      "prefix": 252
+    },
+    {
+      "id": 710,
+      "alpha2": "za",
+      "alpha3": "zaf",
+      "name": "South Africa",
+      "lat": "-30.559482",
+      "long": "22.937506",
+      "prefix": 27
+    },
+    {
+      "id": 239,
+      "alpha2": "gs",
+      "alpha3": "sgs",
+      "name": "South Georgia and the South Sandwich Islands",
+      "lat": "-54.4296",
+      "long": "-36.5879",
+      "prefix": 500
+    },
+    {
+      "id": 728,
+      "alpha2": "ss",
+      "alpha3": "ssd",
+      "name": "South Sudan",
+      "lat": "7.96309",
+      "long": "30.1589",
+      "prefix": 211
+    },
+    {
+      "id": 724,
+      "alpha2": "es",
+      "alpha3": "esp",
+      "name": "Spain",
+      "lat": "40.463667",
+      "long": "-3.74922",
+      "prefix": 34
+    },
+    {
+      "id": 144,
+      "alpha2": "lk",
+      "alpha3": "lka",
+      "name": "Sri Lanka",
+      "lat": "7.873054",
+      "long": "80.771797",
+      "prefix": 94
+    },
+    {
+      "id": 729,
+      "alpha2": "sd",
+      "alpha3": "sdn",
+      "name": "Sudan",
+      "lat": "12.862807",
+      "long": "30.217636",
+      "prefix": 249
+    },
+    {
+      "id": 740,
+      "alpha2": "sr",
+      "alpha3": "sur",
+      "name": "Suriname",
+      "lat": "3.919305",
+      "long": "-56.027783",
+      "prefix": 597
+    },
+    {
+      "id": 744,
+      "alpha2": "sj",
+      "alpha3": "sjm",
+      "name": "Svalbard and Jan Mayen",
+      "lat": "77.553604",
+      "long": "23.670272",
+      "prefix": 47
+    },
+    {
+      "id": 752,
+      "alpha2": "se",
+      "alpha3": "swe",
+      "name": "Sweden",
+      "lat": "60.128161",
+      "long": "18.643501",
+      "prefix": 46
+    },
+    {
+      "id": 756,
+      "alpha2": "ch",
+      "alpha3": "che",
+      "name": "Switzerland",
+      "lat": "46.818188",
+      "long": "8.227512",
+      "prefix": 41
+    },
+    {
+      "id": 760,
+      "alpha2": "sy",
+      "alpha3": "syr",
+      "name": "Syrian Arab Republic",
+      "lat": "34.802075",
+      "long": "38.996815",
+      "prefix": 963
+    },
+    {
+      "id": 158,
+      "alpha2": "tw",
+      "alpha3": "twn",
+      "name": "Taiwan, Province of China",
+      "lat": "23.69781",
+      "long": "120.960515",
+      "prefix": 886
+    },
+    {
+      "id": 762,
+      "alpha2": "tj",
+      "alpha3": "tjk",
+      "name": "Tajikistan",
+      "lat": "38.861034",
+      "long": "71.276093",
+      "prefix": 992
+    },
+    {
+      "id": 834,
+      "alpha2": "tz",
+      "alpha3": "tza",
+      "name": "Tanzania, United Republic of",
+      "lat": "-6.369028",
+      "long": "34.888822",
+      "prefix": 255
+    },
+    {
+      "id": 764,
+      "alpha2": "th",
+      "alpha3": "tha",
+      "name": "Thailand",
+      "lat": "15.870032",
+      "long": "100.992541",
+      "prefix": 66
+    },
+    {
+      "id": 626,
+      "alpha2": "tl",
+      "alpha3": "tls",
+      "name": "Timor-Leste",
+      "lat": "-8.874217",
+      "long": "125.727539",
+      "prefix": 670
+    },
+    {
+      "id": 768,
+      "alpha2": "tg",
+      "alpha3": "tgo",
+      "name": "Togo",
+      "lat": "8.619543",
+      "long": "0.824782",
+      "prefix": 228
+    },
+    {
+      "id": 772,
+      "alpha2": "tk",
+      "alpha3": "tkl",
+      "name": "Tokelau",
+      "lat": "-8.967363",
+      "long": "-171.855881",
+      "prefix": 690
+    },
+    {
+      "id": 776,
+      "alpha2": "to",
+      "alpha3": "ton",
+      "name": "Tonga",
+      "lat": "-21.178986",
+      "long": "-175.198242",
+      "prefix": 676
+    },
+    {
+      "id": 780,
+      "alpha2": "tt",
+      "alpha3": "tto",
+      "name": "Trinidad and Tobago",
+      "lat": "10.691803",
+      "long": "-61.222503",
+      "prefix": 1868
+    },
+    {
+      "id": 788,
+      "alpha2": "tn",
+      "alpha3": "tun",
+      "name": "Tunisia",
+      "lat": "33.886917",
+      "long": "9.537499",
+      "prefix": 216
+    },
+    {
+      "id": 792,
+      "alpha2": "tr",
+      "alpha3": "tur",
+      "name": "Turkey",
+      "lat": "38.963745",
+      "long": "35.243322",
+      "prefix": 90
+    },
+    {
+      "id": 795,
+      "alpha2": "tm",
+      "alpha3": "tkm",
+      "name": "Turkmenistan",
+      "lat": "38.969719",
+      "long": "59.556278",
+      "prefix": 993
+    },
+    {
+      "id": 796,
+      "alpha2": "tc",
+      "alpha3": "tca",
+      "name": "Turks and Caicos Islands",
+      "lat": "21.694025",
+      "long": "-71.797928",
+      "prefix": 1649
+    },
+    {
+      "id": 798,
+      "alpha2": "tv",
+      "alpha3": "tuv",
+      "name": "Tuvalu",
+      "lat": "-7.109535",
+      "long": "177.64933",
+      "prefix": 688
+    },
+    {
+      "id": 800,
+      "alpha2": "ug",
+      "alpha3": "uga",
+      "name": "Uganda",
+      "lat": "1.373333",
+      "long": "32.290275",
+      "prefix": 256
+    },
+    {
+      "id": 804,
+      "alpha2": "ua",
+      "alpha3": "ukr",
+      "name": "Ukraine",
+      "lat": "48.379433",
+      "long": "31.16558",
+      "prefix": 380
+    },
+    {
+      "id": 784,
+      "alpha2": "ae",
+      "alpha3": "are",
+      "name": "United Arab Emirates",
+      "lat": "23.424076",
+      "long": "53.847818",
+      "prefix": 971
+    },
+    {
+      "id": 826,
+      "alpha2": "gb",
+      "alpha3": "gbr",
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "lat": "55.378051",
+      "long": "-3.435973",
+      "prefix": 44
+    },
+    {
+      "id": 840,
+      "alpha2": "us",
+      "alpha3": "usa",
+      "name": "United States of America",
+      "lat": "37.09024",
+      "long": "-95.712891",
+      "prefix": 1
+    },
+    {
+      "id": 581,
+      "alpha2": "um",
+      "alpha3": "umi",
+      "name": "United States Minor Outlying Islands",
+      "lat": "5.88062",
+      "long": "-162.076",
+      "prefix": 246
+    },
+    {
+      "id": 858,
+      "alpha2": "uy",
+      "alpha3": "ury",
+      "name": "Uruguay",
+      "lat": "-32.522779",
+      "long": "-55.765835",
+      "prefix": 598
+    },
+    {
+      "id": 860,
+      "alpha2": "uz",
+      "alpha3": "uzb",
+      "name": "Uzbekistan",
+      "lat": "41.377491",
+      "long": "64.585262",
+      "prefix": 998
+    },
+    {
+      "id": 548,
+      "alpha2": "vu",
+      "alpha3": "vut",
+      "name": "Vanuatu",
+      "lat": "-15.376706",
+      "long": "166.959158",
+      "prefix": 678
+    },
+    {
+      "id": 862,
+      "alpha2": "ve",
+      "alpha3": "ven",
+      "name": "Venezuela (Bolivarian Republic of)",
+      "lat": "6.42375",
+      "long": "-66.58973",
+      "prefix": 58
+    },
+    {
+      "id": 704,
+      "alpha2": "vn",
+      "alpha3": "vnm",
+      "name": "Viet Nam",
+      "lat": "14.058324",
+      "long": "108.277199",
+      "prefix": 84
+    },
+    {
+      "id": 92,
+      "alpha2": "vg",
+      "alpha3": "vgb",
+      "name": "Virgin Islands (British)",
+      "lat": "18.420695",
+      "long": "-64.639968",
+      "prefix": 1284
+    },
+    {
+      "id": 850,
+      "alpha2": "vi",
+      "alpha3": "vir",
+      "name": "Virgin Islands (U.S.)",
+      "lat": "18.335765",
+      "long": "-64.896335",
+      "prefix": 1340
+    },
+    {
+      "id": 876,
+      "alpha2": "wf",
+      "alpha3": "wlf",
+      "name": "Wallis and Futuna",
+      "lat": "-13.768752",
+      "long": "-177.156097",
+      "prefix": 681
+    },
+    {
+      "id": 732,
+      "alpha2": "eh",
+      "alpha3": "esh",
+      "name": "Western Sahara",
+      "lat": "24.215527",
+      "long": "-12.885834",
+      "prefix": 212
+    },
+    {
+      "id": 887,
+      "alpha2": "ye",
+      "alpha3": "yem",
+      "name": "Yemen",
+      "lat": "15.552727",
+      "long": "48.516388",
+      "prefix": 967
+    },
+    {
+      "id": 894,
+      "alpha2": "zm",
+      "alpha3": "zmb",
+      "name": "Zambia",
+      "lat": "-13.133897",
+      "long": "27.849332",
+      "prefix": 260
+    },
+    {
+      "id": 716,
+      "alpha2": "zw",
+      "alpha3": "zwe",
+      "name": "Zimbabwe",
+      "lat": "-19.015438",
+      "long": "29.154857",
+      "prefix": 263
+    }
+  ]

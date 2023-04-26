@@ -1,0 +1,56 @@
+.cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 30px;
+}
+
+input:disabled,
+input[readonly],
+textarea:disabled,
+textarea[readonly] {
+  background-color: transparent;
+}
+
+.responsive {
+  &--icono {
+    display: inline-block;
+  }
+  &--boton {
+    display: none;
+  }
+}
+
+:hover.boton-primario {
+  background-color: grey;
+}
+
+.planeta {
+  background-color: red;
+}
+
+.contenedor-botones {
+  width: 3em;
+}
+
+@media (max-width: 700px) {
+  .cabecera {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .responsive {
+    &--icono {
+      display: none;
+    }
+    &--boton {
+      display: inline-block;
+    }
+  }
+
+  .contenedor-botones {
+    width: auto;
+    padding-top: 0 !important;
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Documentos": [
+    {
+      "Id": 1,
+      "Tipo": "R",
+      "Numero": "350347",
+      "PaisEmision": "ES",
+      "FechaEmision": "2020-01-01",
+      "FechaCaducidad": "2030-06-08"
+    },
+    {
+      "Id": 2,
+      "Tipo": "I",
+      "Numero": "12345678Z",
+      "PaisEmision": "ES",
+      "FechaEmision": "2020-01-01",
+      "FechaCaducidad": "2030-06-08"
+    },
+    {
+      "Id": 3,
+      "Tipo": "P",
+      "Numero": "1234567890Z",
+      "PaisEmision": "ES",
+      "FechaEmision": "2020-01-01",
+      "FechaCaducidad": "2030-06-08"
+    },
+    {
+      "Id": 4,
+      "Tipo": "F",
+      "Numero": "12345678FN",
+      "PaisEmision": "ES",
+      "FechaEmision": "2020-01-01",
+      "FechaCaducidad": "2030-06-08"
+    }
+  ],
+  "Id": 32190,
+  "Nombre": "Arribas, Mario",
+  "FechaNacimiento": "1999-04-01",
+  "Sexo": "H",
+  "PrefijoInternacional": 34,
+  "Telefono": 96123123,
+  "Email": "correo@consultiatravel.es",
+  "Direccion": "Carrer San Antoni 40",
+  "Ciudad": "Sedaví",
+  "CodigoPostal": "00000",
+  "Provincia": "Valencia",
+  "Pais": "ES"
+}

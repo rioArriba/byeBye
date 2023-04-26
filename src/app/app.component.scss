@@ -1,0 +1,214 @@
+@use 'sass:map';
+@use '@angular/material' as mat;
+
+$theme: green;
+
+
+$color-config:    mat.get-color-config($theme);
+
+
+.portada {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.contenedor-registro {
+    // background-color: #f5f5f5;
+    padding: 20px 30px;
+    // border-radius: 5px;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+    @media only screen and (max-width: 600px) {
+      padding: 20px 15px;
+    }
+  }
+  
+  ::ng-deep {
+    .litepicker {
+      font-size: 18px;
+      font-family: 'lato';
+    }
+  
+    .p-inputtext {
+      width: 100%;
+      padding: 0.4rem 0.75rem
+    }
+  
+    .p-inputtext:enabled:focus {
+      border-color: #80bdff;
+      box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+    }
+  }
+  
+  .standard-input {
+    width: 90%;
+  
+    @media only screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+  
+  .small-input {
+    width: 95%;
+  
+    @media only screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .modal__circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200%;
+    width: 200%;
+    background-color: #6a88b1;
+    border-radius: 50%;
+    -ms-transform: translateX(-75%) translateY(-25%);
+        transform: translateX(-75%) translateY(-25%);
+  }
+  
+  .borrar-documento {
+    cursor: pointer;
+  }
+  
+  .noPermitido {
+    cursor: not-allowed;
+  }
+  
+  //editar perfil
+  
+  .nombre-usuario {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+  }
+  
+  .default-width {
+    width: auto;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .user-input {
+    margin-bottom: 11px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: transparent !important;
+    padding: 0 !important;
+  }
+  
+  ::ng-deep .cdk-overlay-container {
+    z-index: 1200 !important;
+  }
+  
+  .loadSpinner {
+    display: flex;
+    justify-content: center;
+    color: #6a88b1;
+  }
+  
+  :host ::ng-deep {
+    .p-datatable {
+      tbody {
+        tr:nth-child(even) {
+          background: #f5f5f5;
+        }
+      }
+    }
+  
+    .p-datatable-responsive-demo .p-datatable-tbody > tr > td .p-column-title {
+      display: none;
+    }
+  
+    .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+      background: #3e608f;
+      border-color: #3e608f;
+    }
+  
+    .p-paginator-last,
+    .p-paginator-next,
+    .p-paginator-prev,
+    .p-paginator-first,
+    .p-paginator-page:not(.p-highlight) {
+      color: #3e608f !important;
+      &:hover {
+        color: #3e608f !important;
+      }
+    }
+  
+    .p-link:focus {
+      box-shadow: 0 0 0 0.2rem rgb(62 96 143 / 50%);
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .boton-pdf {
+      display: block;
+    }
+    .buscador {
+      width: 100%;
+    }
+    .icono-pdf {
+      display: none;
+    }
+    :host ::ng-deep {
+      .p-datatable {
+        & .p-datatable-responsive-demo {
+          .p-datatable-thead > tr > th,
+          .p-datatable-tfoot > tr > td {
+            display: none !important;
+          }
+  
+          .p-datatable-tbody > tr > td {
+            text-align: left;
+            display: block;
+            width: 100%;
+            float: left;
+            clear: left;
+            border: 0 none;
+  
+            .p-column-title {
+              padding: 0.4rem;
+              min-width: 30%;
+              display: inline-block;
+              margin: -0.4em 1em -0.4em -0.4rem;
+              font-weight: bold;
+              color: #656565;
+            }
+  
+            &:last-child {
+              border-bottom: 1px solid var(--surface-d);
+            }
+          }
+        }
+      }
+  
+      .p-datatable-hoverable-rows .p-selectable-row {
+        cursor: initial;
+      }
+    }
+  }
+  
+  .row {
+    max-width: 100%;
+  }
+  

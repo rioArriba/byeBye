@@ -1,0 +1,317 @@
+
+<form
+  @fade
+  class="container-fluid"
+  autocomplete="off"
+  [formGroup]="registroUsuario"
+  (submit)="registrar()"
+>
+  <div class="row mb-4">
+    <div class="col-12">
+      <span *ngIf="nombreUsuario" class="nombre-usuario">
+        <i class="far fa-user" style="margin-right: 0.3rem;"></i>{{ apellidosUsuario | mayusculas }}, {{ nombreUsuario | mayusculas }}</span
+      >
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-md-4 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.nombre' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-user" style="color: #607d8b;"></i> &nbsp;</span>
+        <input
+          matInput
+          formControlName="Nombre"
+          placeholder="{{ 'perfil.placeholder.nombre' | translate }}"
+        />
+        <mat-error
+          *ngIf="
+            (registroUsuario.controls['Nombre'].dirty || registroUsuario.controls['Nombre'].touched) &&
+            registroUsuario.controls['Nombre'].invalid &&
+            registroUsuario.controls['Nombre'].errors?.['required']
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+        <mat-error *ngIf="registroUsuario.controls['Nombre'].errors?.['maxlength']">
+          {{ 'perfil.limite-caracteres' | translate: { num: '60' } }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-12 col-md-4 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.apellidos' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-user" style="color: #607d8b;"></i> &nbsp;</span>
+        <input
+          matInput
+          formControlName="Apellidos"
+          placeholder="{{ 'perfil.placeholder.apellidos' | translate }}"
+        />
+        <mat-error
+          *ngIf="
+            (registroUsuario.controls['Apellidos'].dirty || registroUsuario.controls['Apellidos'].touched) &&
+            registroUsuario.controls['Apellidos'].invalid &&
+            registroUsuario.controls['Apellidos'].errors?.['required']
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+        <mat-error *ngIf="registroUsuario.controls['Apellidos'].errors?.['maxlength']">
+          {{ 'perfil.limite-caracteres' | translate: { num: '60' } }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-12 col-md-4 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.sexo' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-venus-mars" style="color: #607d8b;"></i> &nbsp;</span>
+        <mat-select matNativeControl formControlName="Sexo">
+          <mat-option value="M">{{ 'perfil.mujer' | translate }}</mat-option>
+          <mat-option value="H">{{ 'perfil.hombre' | translate }}</mat-option>
+        </mat-select>
+        <mat-error *ngIf="registroUsuario.controls['Sexo'].invalid && registroUsuario.controls['Sexo'].errors?.['required']">
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-3 user-input">
+      <mat-form-field class="full-width" appearance="fill">
+        <mat-label
+          >{{ 'perfil.fecha-nacimiento' | translate }}
+        </mat-label>
+        <input matInput [matDatepicker]="fechaNacimiento" formControlName="FechaNacimiento" readonly/>
+        <mat-datepicker-toggle matSuffix [for]="fechaNacimiento"></mat-datepicker-toggle>
+        <mat-datepicker #fechaNacimiento></mat-datepicker>
+        <mat-error
+          *ngIf="
+            registroUsuario.controls['FechaNacimiento'].invalid && registroUsuario.controls['FechaNacimiento'].errors?.['required']
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 user-input">
+      <mat-form-field *ngIf="prefijosInternacionales" class="full-width">
+        <mat-label
+          >{{ 'perfil.prefijo' | translate }}
+        </mat-label>
+        <span matPrefix><flag-icon country="{{ bandera }}" squared></flag-icon> &nbsp;</span>
+        <mat-select formControlName="PrefijoInternacional" (selectionChange)="cambiarBandera($event)">
+          <mat-option *ngFor="let prefijo of prefijosInternacionales" [value]="prefijo.value">
+            <mat-icon><flag-icon *ngIf="prefijo.codigo" country="{{ prefijo.codigo }}" squared></flag-icon></mat-icon>
+            {{ prefijo.viewValue }}
+          </mat-option>
+        </mat-select>
+        <mat-error
+          *ngIf="
+            registroUsuario.controls['PrefijoInternacional'].invalid &&
+            registroUsuario.controls['PrefijoInternacional'].errors?.['required']
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.telefono' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-phone" style="color: #607d8b;"></i> &nbsp;</span>
+        <input
+          matInput
+          formControlName="Telefono"
+          placeholder="{{ 'perfil.placeholder.telefono' | translate }}"
+        />
+        <mat-error
+          *ngIf="
+            (registroUsuario.controls['Telefono'].dirty || registroUsuario.controls['Telefono'].touched) &&
+            registroUsuario.controls['Telefono'].invalid &&
+            registroUsuario.controls['Telefono'].errors?.['required']
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+        <mat-error *ngIf="registroUsuario.controls['Telefono']?.errors?.['pattern']">
+          {{ 'registro.campo-no-valido' | translate }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.email' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-envelope-square" style="color: #607d8b;"></i> &nbsp;</span>
+        <input
+          matInput
+          formControlName="Email"
+          placeholder="{{ 'perfil.placeholder.email' | translate }}"
+        />
+        <mat-error
+          *ngIf="
+            (registroUsuario.controls['Email'].dirty || registroUsuario.controls['Email'].touched) &&
+            registroUsuario.controls['Email'].invalid &&
+            registroUsuario.controls['Email'].errors?.['required']
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+        <mat-error *ngIf="registroUsuario.controls['Email'].errors?.['maxlength']">
+          {{ 'perfil.limite-caracteres' | translate: { num: '60' } }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-md-6 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.direccion' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-map-marked-alt" style="color: #607d8b;"></i> &nbsp;</span>
+        <input
+          matInput
+          formControlName="Direccion"
+          placeholder="{{ 'perfil.placeholder.direccion' | translate }}"
+        />
+        <mat-error
+          *ngIf="
+            (registroUsuario.controls['Direccion'].dirty || registroUsuario.controls['Direccion'].touched) &&
+            registroUsuario.controls['Direccion'].invalid
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+        <mat-error *ngIf="registroUsuario.controls['Direccion'].errors?.['maxlength']">
+          {{ 'perfil.limite-caracteres' | translate: { num: '50' } }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-12 col-md-6 user-input" style="text-align: left;">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.ciudad' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-city" style="color: #607d8b;"></i> &nbsp;</span>
+        <input
+          matInput
+          formControlName="Ciudad"
+          placeholder="{{ 'perfil.placeholder.ciudad' | translate }}"
+        />
+        <mat-error
+          *ngIf="
+            (registroUsuario.controls['Ciudad'].dirty || registroUsuario.controls['Ciudad'].touched) &&
+            registroUsuario.controls['Ciudad'].invalid
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+        <mat-error *ngIf="registroUsuario.controls['Ciudad'].errors?.['maxlength']">
+          {{ 'perfil.limite-caracteres' | translate: { num: '50' } }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-md-4 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.codigo-postal' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-arrow-circle-right" style="color: #607d8b;"></i> &nbsp;</span>
+        <input
+          matInput
+          formControlName="CodigoPostal"
+          placeholder="{{ 'perfil.placeholder.codigo-postal' | translate }}"
+          numericOnly
+        />        
+        <mat-error *ngIf="registroUsuario.controls['CodigoPostal']?.errors?.['pattern']">
+          {{ 'registro.campo-no-valido' | translate }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-12 col-md-4 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.provincia' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-arrow-circle-right" style="color: #607d8b;"></i> &nbsp;</span>
+        <input
+          matInput
+          formControlName="Provincia"
+          placeholder="{{ 'perfil.placeholder.provincia' | translate }}"
+        />
+        <mat-error
+          *ngIf="
+            (registroUsuario.controls['Provincia'].dirty || registroUsuario.controls['Provincia'].touched) &&
+            registroUsuario.controls['Provincia'].invalid
+          "
+        >
+          {{ 'registro.campo-obligatorio' | translate }}
+        </mat-error>
+        <mat-error *ngIf="registroUsuario.controls['Provincia'].errors?.['maxlength']">
+          {{ 'perfil.limite-caracteres' | translate: { num: '10' } }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-12 col-md-4 user-input">
+      <mat-form-field class="full-width">
+        <mat-label
+          >{{ 'perfil.pais' | translate }}
+        </mat-label>
+        <span matPrefix><i class="fas fa-globe" style="color: #607d8b;"></i> &nbsp;</span>
+        <mat-select matNativeControl formControlName="Pais">
+          <mat-option *ngFor="let pais of paises" [value]="pais.alpha2.toUpperCase()">{{ pais.name }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+  
+  <div class="row" *ngIf="datosUsuarioRAW?.Documentos">
+    <div class="col-12">
+      <lista-documentos-perfil
+        *ngIf="paises"
+        (documentosCumplenCondicionesChange)="hndDocumentosValidados($event)"
+        [paises]="paises"
+        [codigosResidente]="listadoCodigosResidentes"
+        [(items)]="datosUsuarioRAW.Documentos"
+      ></lista-documentos-perfil>
+    </div>
+  </div>
+
+  <div class="row" *ngIf="!paises">
+    <div class="col-12" style="text-align: center;">
+      <i class="fas fa-spinner fa-spin fa-3x"></i>
+    </div>
+  </div>
+
+  <!-- <div class="columns large-2 large-offset-5 medium-4 medium-offset-4 small-12"> -->
+  <div class="row mt-3 justify-content-center">
+    <div class="col-12 col-md-4 col-xl-2 d-grid">
+      <button type="submit" class="boton-primario btn" [disabled]="!registroUsuario.valid">
+        {{ 'perfil.guardar' | translate }}
+      </button>
+    </div>
+  </div>
+</form>

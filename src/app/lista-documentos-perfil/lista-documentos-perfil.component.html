@@ -1,17 +1,8 @@
 <form [formGroup]="editarDocumento">
-  <p-table
-    #dt
-    [value]="Documentos.controls"
-    dataKey="Numero"
-    [rowHover]="true"
-    [rows]="5"
-    [showCurrentPageReport]="false"
-    [paginator]="true"
+  <p-table #dt [value]="Documentos.controls" dataKey="Numero" [rowHover]="true" [rows]="5"
+    [showCurrentPageReport]="false" [paginator]="true"
     [globalFilterFields]="['Tipo', 'Numero', 'FechaCaducidad', 'FechaEmision', 'PaisEmision']"
-    [alwaysShowPaginator]="false"
-    [autoLayout]= "true"
-    breakpoint="1200px"
-  >
+    [alwaysShowPaginator]="true" [autoLayout]="true" breakpoint="1200px">
     <ng-template pTemplate="caption">
       <div class="table-header cabecera">
         {{ 'perfil.documentos' | translate }}
@@ -21,13 +12,12 @@
       </div>
     </ng-template>
 
-    <ng-template   formArrayName="Documentos" pTemplate="body" let-item let-i="rowIndex" >
-     
+    <ng-template formArrayName="Documentos" pTemplate="body" let-item let-i="rowIndex">
       <tr class="p-selectable-row">
         <td [formGroupName]="i">
           <mat-form-field class="w-100">
             <mat-label>{{ 'perfil.tipo-documento' | translate }}</mat-label>
-            <mat-select formControlName="Tipo" >
+            <mat-select formControlName="Tipo">
               <mat-option *ngFor="let documento of tiposDocumentosVista" [value]="documento.value">
                 {{ documento.viewValue }}
               </mat-option>
@@ -36,32 +26,27 @@
             (Documentos.controls[i].get('Tipo')?.dirty || Documentos.controls[i].get('Tipo')?.touched) &&
             Documentos.controls[i].get('Tipo')?.invalid &&
             Documentos.controls[i].get('Tipo')?.errors?.['required']
-          ">
-          {{ 'registro.campo-obligatorio' | translate }}
-        </mat-error>
+            ">
+              {{ 'registro.campo-obligatorio' | translate }}
+            </mat-error>
           </mat-form-field>
         </td>
-        <td
-          [formGroupName]="i"
-          *ngIf="
+        <td [formGroupName]="i" *ngIf="
             item.value.Tipo != tiposDocumentos.Residente ||
             (item.value.Tipo == tiposDocumentos.Residente && item.value.PaisEmision != 'ES')
-          "
-        >
+          ">
           <mat-form-field class="w-100">
             <mat-label>
-             {{ 'perfil.numero' | translate }}</mat-label>
+              {{ 'perfil.numero' | translate }}</mat-label>
             <input formControlName="Numero" matInput />
-            <mat-error
-              *ngIf="
+            <mat-error *ngIf="
                 (Documentos.controls[i].get('Numero')?.dirty || Documentos.controls[i].get('Numero')?.touched) &&
                 Documentos.controls[i].get('Numero')?.invalid &&
                 Documentos.controls[i].get('Numero')?.errors?.['required']
-              "
-            >
+              ">
               {{ 'registro.campo-obligatorio' | translate }}
             </mat-error>
-          
+
           </mat-form-field>
         </td>
         <td [formGroupName]="i" *ngIf="item.value.Tipo == tiposDocumentos.Residente && item.value.PaisEmision == 'ES'">
@@ -76,13 +61,11 @@
                 {{ codigo.Descripcion }}
               </mat-option>
             </mat-select>
-            <mat-error
-              *ngIf="
+            <mat-error *ngIf="
                 (Documentos.controls[i].get('Numero')?.dirty || Documentos.controls[i].get('Numero')?.touched) &&
                 Documentos.controls[i].get('Numero')?.invalid &&
                 Documentos.controls[i].get('Numero')?.errors?.['required']
-              "
-            >
+              ">
               {{ 'registro.campo-obligatorio' | translate }}
             </mat-error>
           </mat-form-field>
@@ -91,22 +74,15 @@
           <!-- {{ item.FechaEmision | date: 'dd/MM/yyyy' }} -->
           <mat-form-field class="w-100">
             <mat-label>{{ 'perfil.fecha-emision' | translate }}</mat-label>
-            <input
-              (dateChange)="formatearFecha(item.FechaEmision)"
-              formControlName="FechaEmision"
-              matInput
-              [matDatepicker]="emision"
-              readonly
-            />
+            <input (dateChange)="formatearFecha(item.FechaEmision)" formControlName="FechaEmision" matInput
+              [matDatepicker]="emision" readonly />
             <mat-datepicker-toggle matSuffix [for]="emision"></mat-datepicker-toggle>
             <mat-datepicker #emision></mat-datepicker>
-            <mat-error
-              *ngIf="
+            <mat-error *ngIf="
                 (Documentos.controls[i].get('FechaEmision')?.dirty || Documentos.controls[i].get('FechaEmision')?.touched) &&
                 Documentos.controls[i].get('FechaEmision')?.invalid &&
                 Documentos.controls[i].get('FechaEmision')?.errors?.['required']
-              "
-            >
+              ">
               {{ 'registro.campo-obligatorio' | translate }}
             </mat-error>
           </mat-form-field>
@@ -114,23 +90,16 @@
         <td [formGroupName]="i">
           <mat-form-field class="w-100">
             <mat-label>{{ 'perfil.fecha-caducidad' | translate }}</mat-label>
-            <input
-              (dateChange)="formatearFecha(item.FechaCaducidad)"
-              formControlName="FechaCaducidad"
-              matInput
-              [matDatepicker]="caducidad"
-              readonly
-            />
+            <input (dateChange)="formatearFecha(item.FechaCaducidad)" formControlName="FechaCaducidad" matInput
+              [matDatepicker]="caducidad" readonly />
             <mat-datepicker-toggle matSuffix [for]="caducidad"></mat-datepicker-toggle>
             <mat-datepicker #caducidad></mat-datepicker>
-            <mat-error
-              *ngIf="
+            <mat-error *ngIf="
                 (Documentos.controls[i].get('FechaCaducidad')?.dirty ||
                   Documentos.controls[i].get('FechaCaducidad')?.touched) &&
                 Documentos.controls[i].get('FechaCaducidad')?.invalid &&
                 Documentos.controls[i].get('FechaCaducidad')?.errors?.['required']
-              "
-            >
+              ">
               {{ 'registro.campo-obligatorio' | translate }}
             </mat-error>
           </mat-form-field>
@@ -139,33 +108,8 @@
           <mat-form-field class="w-100">
             <mat-label>{{ 'perfil.pais-emision' | translate }}</mat-label>
             <span matPrefix><i class="fas fa-globe" style="color: #607d8b;"></i> &nbsp;</span>
-            <mat-select
-              (selectionChange)="hndOnSelectionPaisEmisionChange($event.value, i)"
-              formControlName="PaisEmision"
-            >
-              <mat-option *ngFor="let pais of comboPaises" [value]="pais.value">
-                {{ pais.viewValue }}
-              </mat-option>
-            </mat-select>
-            <mat-error
-              *ngIf="
-                (Documentos.controls[i].get('PaisEmision')?.dirty || Documentos.controls[i].get('PaisEmision')?.touched) &&
-                Documentos.controls[i].get('PaisEmision')?.invalid &&
-                  Documentos.controls[i].get('PaisEmision')?.errors?.['required']
-              "
-            >
-              {{ 'registro.campo-obligatorio' | translate }}
-            </mat-error>
-          </mat-form-field>
-        </td>
-        <td [formGroupName]="i" *ngIf="item.value.Tipo == 'I' && validarNIE(item.value.Numero) && item.value.PaisEmision == 'ES'">
-          <mat-form-field class="w-100">
-            <mat-label>{{ 'perfil.nacionalidad' | translate }}*</mat-label>
-            <span matPrefix><i class="fas fa-globe" style="color: #607d8b;"></i> &nbsp;</span>
-            <mat-select
-              (selectionChange)="hndOnSelectionNacionalidadChange($event.value, i)"
-              formControlName="PaisNacionalidad"
-            >
+            <mat-select (selectionChange)="hndOnSelectionPaisEmisionChange($event.value, i)"
+              formControlName="PaisEmision">
               <mat-option [value]="paisDefault.value" class="planeta" #miPais>
                 {{ paisDefault.viewValue }}
               </mat-option>
@@ -173,32 +117,50 @@
                 {{ pais.viewValue }}
               </mat-option>
             </mat-select>
-            <mat-error
-              *ngIf="
-                (Documentos.controls[i].get('PaisNacionalidad')?.dirty ||
-                  Documentos.controls[i].get('PaisNacionalidad')?.touched) &&
-                Documentos.controls[i].get('PaisNacionalidad')?.invalid &&
-                Documentos.controls[i].get('PaisNacionalidad')?.errors?.['required']
-              "
-            >
+            <mat-error *ngIf="
+                (Documentos.controls[i].get('PaisEmision')?.dirty || Documentos.controls[i].get('PaisEmision')?.touched) &&
+                Documentos.controls[i].get('PaisEmision')?.invalid &&
+                  Documentos.controls[i].get('PaisEmision')?.errors?.['required']
+              ">
               {{ 'registro.campo-obligatorio' | translate }}
             </mat-error>
           </mat-form-field>
         </td>
-        <td  class="contenedor-botones">
-          <span  (click)="borrarDocumento(i)">
-            <i
-              class="far fa-trash-alt responsive--icono"
-              pTooltip="{{ 'perfil.borrar' | translate }}"
-              tooltipPosition="top"
-            ></i>
+        <td [formGroupName]="i"
+          *ngIf="item.value.Tipo == 'I' && validarNIE(item.value.Numero) && item.value.PaisEmision == 'ES'">
+          <mat-form-field class="w-100">
+            <mat-label>{{ 'perfil.nacionalidad' | translate }}*</mat-label>
+            <span matPrefix><i class="fas fa-globe" style="color: #607d8b;"></i> &nbsp;</span>
+            <mat-select (selectionChange)="hndOnSelectionNacionalidadChange($event.value, i)"
+              formControlName="PaisNacionalidad">
+              <mat-option [value]="paisDefault.value" class="planeta" #miPais>
+                {{ paisDefault.viewValue }}
+              </mat-option>
+              <mat-option *ngFor="let pais of comboPaises" [value]="pais.value">
+                {{ pais.viewValue }}
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="
+                (Documentos.controls[i].get('PaisNacionalidad')?.dirty ||
+                  Documentos.controls[i].get('PaisNacionalidad')?.touched) &&
+                Documentos.controls[i].get('PaisNacionalidad')?.invalid &&
+                Documentos.controls[i].get('PaisNacionalidad')?.errors?.['required']
+              ">
+              {{ 'registro.campo-obligatorio' | translate }}
+            </mat-error>
+          </mat-form-field>
+        </td>
+        <td class="contenedor-botones">
+          <span (click)="borrarDocumento(i)">
+            <i class="far fa-trash-alt responsive--icono" pTooltip="{{ 'perfil.borrar' | translate }}"
+              tooltipPosition="top"></i>
             <button class="button alert responsive--boton expanded mb-0">
               {{ 'perfil.borrar' | translate }}
             </button>
           </span>
         </td>
       </tr>
-  
+
     </ng-template>
 
     <ng-template pTemplate="emptymessage">

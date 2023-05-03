@@ -43,15 +43,12 @@ export class ListaDocumentosPerfilComponent implements OnInit {
     private _translate: TranslateService,
   ) { console.log('Soy Constructor: ', this.items); }
 
-
-
   ngOnInit(): void {
     this.setComboPaises();
     this.cargarFormulario();
     this.autocompletarDocumentosForm();
     this.Documentos.valueChanges.pipe(takeUntil(this.destroy$)).subscribe((value) => {
       this.editarDocumento.updateValueAndValidity();
-      // console.log(this.editarDocumento.valid, this.Documentos.valid);
       if (this.Documentos.valid) {
         this.items = value;
         this.itemsChange.emit(this.items);
@@ -76,17 +73,17 @@ export class ListaDocumentosPerfilComponent implements OnInit {
   //   console.log('Soy ViewChecked: ');
   // }
 
-  // ngContentViewInit() {
+  // ngAfterContentInit() {
   //   console.log('Soy ContentInit: ');
   // }
-  // ngContentViewChecked() {
+  // ngAfterContentChecked() {
   //   console.log('Soy ContentChecked: ');
   // }
 
-  ngOnDestroy() {
-    this.destroy$.unsubscribe();
-    console.log('Soy Destroy: ');
-  }
+  // ngOnDestroy() {
+  //   this.destroy$.unsubscribe();
+  //   console.log('Soy Destroy: ');
+  // }
 
   @ViewChild('miPais', { static: true }) miPais!: ElementRef;
   nuevoPaisColor() {
@@ -144,14 +141,14 @@ export class ListaDocumentosPerfilComponent implements OnInit {
       customClass: {
         container: 'swal-z-index-9999'
       },
-      title: this._translate.instant('perfil.lista-documentos.atencion'),
-      text: this._translate.instant('perfil.lista-documentos.borrar-documento'),
+      title: this._translate.instant('perfil.atencion'),
+      text: this._translate.instant('perfil.borrar'),
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
-      confirmButtonText: this._translate.instant('perfil.lista-documentos.borrar'),
-      cancelButtonText: this._translate.instant('perfil.lista-documentos.cancelar')
+      confirmButtonText: this._translate.instant('perfil.borrar'),
+      cancelButtonText: this._translate.instant('perfil.cancelar')
     }).then((result) => {
       if (result.isConfirmed) {
         i != 0
@@ -297,9 +294,9 @@ export class ListaDocumentosPerfilComponent implements OnInit {
         container: 'swal-z-index-9999'
       },
       icon: 'error',
-      title: `${this._translate.instant('auto-reserva.componentes-comunes.un-momento')}...`,
+      title: `${this._translate.instant('perfil.un-momento')}...`,
       html: texto,
-      confirmButtonText: this._translate.instant('auto-reserva.vuelos.comun.vale'),
+      confirmButtonText: this._translate.instant('perfil.vale'),
       allowOutsideClick: false,
       allowEscapeKey: false
     });

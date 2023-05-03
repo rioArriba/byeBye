@@ -1,4 +1,5 @@
 import {
+  AfterViewInit,
   Component,
   EventEmitter,
   HostBinding,
@@ -16,9 +17,8 @@ import { UsuarioService } from 'src/app/servicios/usuario.service';
 import Swal from 'sweetalert2';
 import { animate, style, transition, trigger } from '@angular/animations';
 import { first } from 'rxjs/internal/operators/first';
-import { SwalComponent } from '@sweetalert2/ngx-sweetalert2';
 import { Pais } from 'src/app/modelos/pais';
-import { Observable, Subject, Subscription, map, takeUntil } from 'rxjs';
+import { Subject, Subscription, map, takeUntil } from 'rxjs';
 import { IRegistroUsuario, IDocumento } from 'src/app/modelos/administracion-usuario'
 import { HttpClient } from '@angular/common/http';
 import { TipoDocumentoValores } from '../modelos/TipoDocumento';
@@ -30,7 +30,7 @@ import { ListaDocumentosPerfilComponent } from '../lista-documentos-perfil/lista
   styleUrls: ['./editar-perfil.component.scss'],
   animations: [trigger('fade', [transition('void => *', [style({ opacity: 0 }), animate(600, style({ opacity: 1 }))])])]
 })
-export class EditarPerfilComponent implements OnInit{
+export class EditarPerfilComponent implements OnInit, AfterViewInit{
   registroUsuario!: FormGroup;
   paisesTraducidos: Pais | undefined;
   paises!: Pais[];  
@@ -61,9 +61,10 @@ export class EditarPerfilComponent implements OnInit{
   constructor(
     private _translate: TranslateService, 
     private _usuarioService: UsuarioService, 
-    private fb: FormBuilder, 
     private _http: HttpClient
-  ) { }
+  ) { 
+    _translate.setDefaultLang('es');
+  }
 
   @ViewChild(ListaDocumentosPerfilComponent) listaDocumentos!: ListaDocumentosPerfilComponent;
   nuevoPais() {
@@ -75,10 +76,8 @@ export class EditarPerfilComponent implements OnInit{
   ngOnInit(): void {
     this.setFormGroup();
     if (this._translate.getBrowserLang() === 'es') {
-      this._translate.use('es');
       this.estableceIdioma('es');
     } else if (this._translate.getBrowserLang() == 'ca') {
-      this._translate.use('ca');
       this.estableceIdioma('ca');
     } else {
       this.estableceIdioma('en');
@@ -89,10 +88,10 @@ export class EditarPerfilComponent implements OnInit{
 
   estableceIdioma(idioma: string) {
     this.idioma = idioma;
+    this._translate.use(idioma);
   }
 
   ngAfterViewInit(): void {
-    console.log('Soy AfterViewInit');
     this.usuariosAntiguos$ = this._usuarioService.recuperarJSON()
       .pipe(takeUntil(this.destroy$))
       .subscribe(
@@ -105,8 +104,8 @@ export class EditarPerfilComponent implements OnInit{
       const nombrePartido = user.Nombre.split(',');
       this.registroUsuario.patchValue({
         ...user,
-        Nombre: nombrePartido[0].trim(),
-        Apellidos: nombrePartido[1].trim(),
+        Nombre: nombrePartido[1].trim(),
+        Apellidos: nombrePartido[0].trim(),
         FechaNacimiento: user.FechaNacimiento ? new Date(user.FechaNacimiento) : null
       });
       this.setValidators();
@@ -324,19 +323,19 @@ export class EditarPerfilComponent implements OnInit{
   }
 
   
-  // @HostListener('window:beforeunload', ['$event'])
-  // ngOnDestroy($event: any) {
-  //   const usuario = this.registroUsuario.getRawValue()
-  //   if (usuario.nombre !== '') {
-  //     this._usuarioService.anyadirUsuario(usuario);
-  //     const subscripcion$ = this._usuarioService.guardarJSON()
-  //     .pipe(takeUntil(this.destroy$))
-  //     .subscribe();
-  //   }
-  //   this.destroy$.next();
-  //   $event.preventDefault();
-  //   $event.returnValue = 'Quiere cerrar la pagina?';
-  // } 
+  @HostListener('window:beforeunload', ['$event'])
+  ngOnDestroy($event: any) {
+    const usuario = this.registroUsuario.getRawValue()
+    if (usuario.nombre !== '') {
+      this._usuarioService.anyadirUsuario(usuario);
+      const subscripcion$ = this._usuarioService.guardarJSON()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe();
+    }
+    this.destroy$.next();
+    $event.preventDefault();
+    $event.returnValue = 'Quiere cerrar la pagina?';
+  } 
   
   ordenarListadoDocumentosPorTipo(documentosViajero: any[]): IDocumento[] {
     let documentosOrdenados: IDocumento[] = [];

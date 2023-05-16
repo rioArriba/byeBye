@@ -19,6 +19,7 @@ export class AppComponent {
 
   hndUsaLenguaje(lenguaje: string): void {
     this.EditarPerfilComponent.estableceIdioma(lenguaje);
+    console.log(lenguaje)
   }
 }
 

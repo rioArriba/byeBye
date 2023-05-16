@@ -30,10 +30,10 @@ import { ListaDocumentosPerfilComponent } from '../lista-documentos-perfil/lista
   styleUrls: ['./editar-perfil.component.scss'],
   animations: [trigger('fade', [transition('void => *', [style({ opacity: 0 }), animate(600, style({ opacity: 1 }))])])]
 })
-export class EditarPerfilComponent implements OnInit, AfterViewInit{
+export class EditarPerfilComponent implements OnInit, AfterViewInit {
   registroUsuario!: FormGroup;
   paisesTraducidos: Pais | undefined;
-  paises!: Pais[];  
+  paises!: Pais[];
   idioma!: string;
   nombrePerfil: string | undefined;
   loadSpinner: boolean = false;
@@ -59,10 +59,10 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
   formatoPrefijo = (pais: { name: any; prefix: any; }) => `${pais.name} +${pais.prefix}`;
 
   constructor(
-    private _translate: TranslateService, 
-    private _usuarioService: UsuarioService, 
+    private _translate: TranslateService,
+    private _usuarioService: UsuarioService,
     private _http: HttpClient
-  ) { 
+  ) {
     _translate.setDefaultLang('es');
   }
 
@@ -89,6 +89,8 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
   estableceIdioma(idioma: string) {
     this.idioma = idioma;
     this._translate.use(idioma);
+    // console.log(idioma)
+    // this.getPaises()
   }
 
   ngAfterViewInit(): void {
@@ -96,25 +98,26 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
       .pipe(takeUntil(this.destroy$))
       .subscribe(
         (user: IRegistroUsuario) => {
-      if (user.Documentos) {
-        user.Documentos = this.ordenarListadoDocumentosPorTipo(user.Documentos);
-      }
-      this.datosUsuarioRAW = user;
-      console.log('datos user', user);
-      const nombrePartido = user.Nombre.split(',');
-      this.registroUsuario.patchValue({
-        ...user,
-        Nombre: nombrePartido[1].trim(),
-        Apellidos: nombrePartido[0].trim(),
-        FechaNacimiento: user.FechaNacimiento ? new Date(user.FechaNacimiento) : null
-      });
-      this.setValidators();
-      this.loadSpinner = false;
-    },
-    () => {
-      this.datosUsuarioRAW = null;
-    }
-  );
+          if (user.Documentos) {
+            user.Documentos = this.ordenarListadoDocumentosPorTipo(user.Documentos);
+          }
+          this.datosUsuarioRAW = user;
+          // console.log('datos user', user);
+          const nombrePartido = user.Nombre.split(',');
+          this.registroUsuario.patchValue({
+            ...user,
+            Nombre: nombrePartido[1].trim(),
+            Apellidos: nombrePartido[0].trim(),
+            FechaNacimiento: user.FechaNacimiento ? new Date(user.FechaNacimiento) : null
+          });
+          this.setValidators();
+          this.loadSpinner = false;
+        },
+        () => {
+          this.datosUsuarioRAW = null;
+        }
+      );
+    this.getPaises();
   }
 
   setFormGroup() {
@@ -152,6 +155,7 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
   }
 
   setPrefijos() {
+    // console.log(this.registroUsuario.get('PrefijoInternacional')?.value)
     this.prefijosInternacionales = this.paises.map((pais) => {
       if (pais.prefix === this.registroUsuario.get('PrefijoInternacional')?.value) {
         this.bandera = pais.alpha2;
@@ -171,6 +175,7 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
         this.paises = data;
         this.setPrefijos();
       })
+
   }
 
   getCountries() {
@@ -201,7 +206,7 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
 
   comprobarErrores(datosUsuario: IRegistroUsuario) {
     return (
-      this.comprobarErrorFechaNacimiento(datosUsuario.FechaNacimiento) 
+      this.comprobarErrorFechaNacimiento(datosUsuario.FechaNacimiento)
     );
   }
 
@@ -278,7 +283,7 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
 
   setValidators() {
     Object.keys(this.registroUsuario.controls).forEach((key) => {
-      if (key === 'Direccion' || key === 'Ciudad' || key === 'CodigoPostal' || key === 'Provincia') return; 
+      if (key === 'Direccion' || key === 'Ciudad' || key === 'CodigoPostal' || key === 'Provincia') return;
       if (this.registroUsuario.get(key)?.value !== null) {
         this.registroUsuario
           .get(key)!
@@ -307,7 +312,7 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
     return this.registroUsuario.get('Apellidos')?.value;
   }
 
-  
+
 
   getFormatedName(name: string) {
     let res = name.replace(',', '');
@@ -322,21 +327,21 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
     return `${lastName}, ${firstName}`;
   }
 
-  
+
   @HostListener('window:beforeunload', ['$event'])
   ngOnDestroy($event: any) {
     const usuario = this.registroUsuario.getRawValue()
     if (usuario.nombre !== '') {
       this._usuarioService.anyadirUsuario(usuario);
       const subscripcion$ = this._usuarioService.guardarJSON()
-      .pipe(takeUntil(this.destroy$))
-      .subscribe();
+        .pipe(takeUntil(this.destroy$))
+        .subscribe();
     }
     this.destroy$.next();
     $event.preventDefault();
     $event.returnValue = 'Quiere cerrar la pagina?';
-  } 
-  
+  }
+
   ordenarListadoDocumentosPorTipo(documentosViajero: any[]): IDocumento[] {
     let documentosOrdenados: IDocumento[] = [];
     const identificaciones = this.filtrarDocumentosIdentidad(documentosViajero);
@@ -350,20 +355,20 @@ export class EditarPerfilComponent implements OnInit, AfterViewInit{
     return documentosOrdenados;
   }
 
-  filtrarDocumentosBonificaciones(documentos:IDocumento[]): IDocumento[] {
-    return documentos.filter((documento)=>{
+  filtrarDocumentosBonificaciones(documentos: IDocumento[]): IDocumento[] {
+    return documentos.filter((documento) => {
       return documento.Tipo == TipoDocumentoValores.Residente || documento.Tipo == TipoDocumentoValores.FamiliaNumerosa;
     });
   }
 
-  filtrarDocumentosIdentidad(documentos:IDocumento[]): IDocumento[] {
-    return documentos.filter((documento)=>{
+  filtrarDocumentosIdentidad(documentos: IDocumento[]): IDocumento[] {
+    return documentos.filter((documento) => {
       return documento.Tipo == TipoDocumentoValores.Identificacion;
     });
   }
 
-  filtrarDocumentosPasaportes(documentos:IDocumento[]): IDocumento[] {
-    return documentos.filter((documento)=>{
+  filtrarDocumentosPasaportes(documentos: IDocumento[]): IDocumento[] {
+    return documentos.filter((documento) => {
       return documento.Tipo == TipoDocumentoValores.Pasaporte;
     });
   }

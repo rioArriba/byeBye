@@ -33,15 +33,17 @@ export class ListaDocumentosPerfilComponent implements OnInit {
   editarDocumento!: FormGroup;
   destroy$: Subject<boolean> = new Subject<boolean>();
   tiposDocumentosVista: any[] = [
-    { value: 'I', viewValue: this._translate.instant('perfil.num-identificacion') },
-    { value: 'P', viewValue: this._translate.instant('perfil.pasaporte') },
-    { value: 'R', viewValue: this._translate.instant('perfil.residente') },
-    { value: 'F', viewValue: this._translate.instant('perfil.familia-numerosa') },
+    { value: 'I', viewValue: 'perfil.num-identificacion' },
+    { value: 'P', viewValue: 'perfil.pasaporte' },
+    { value: 'R', viewValue: 'perfil.residente' },
+    { value: 'F', viewValue: 'perfil.familia-numerosa' },
   ];
   constructor(
     private formBuilder: FormBuilder,
     private _translate: TranslateService,
-  ) { console.log('Soy Constructor: ', this.items); }
+  ) { 
+    // console.log('Soy Constructor: ', this.items); 
+  }
 
   ngOnInit(): void {
     this.setComboPaises();
@@ -55,7 +57,7 @@ export class ListaDocumentosPerfilComponent implements OnInit {
         this.documentosCumplenCondicionesChange.emit(true);
       } else this.documentosCumplenCondicionesChange.emit(false);
     });
-    console.log('Soy Init: ', this.items);
+    // console.log('Soy Init: ', this.items);
   }
 
   // ngOnChanges(changes: SimpleChanges) {

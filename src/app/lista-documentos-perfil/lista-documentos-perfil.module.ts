@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListaDocumentosPerfilComponent } from './lista-documentos-perfil.component';
-import { TableModule } from 'primeng/table';
 import { TranslateModule } from '@ngx-translate/core';
 import { TooltipModule } from 'primeng/tooltip';
 import { MatInputModule } from '@angular/material/input';
@@ -12,6 +11,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TableModule } from 'primeng/table';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   declarations: [ListaDocumentosPerfilComponent],
@@ -27,7 +28,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatDatepickerModule,
     MatNativeDateModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ButtonModule
   ],
   exports: [ListaDocumentosPerfilComponent]
 })

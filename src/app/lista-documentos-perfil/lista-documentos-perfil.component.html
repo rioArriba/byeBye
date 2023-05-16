@@ -1,8 +1,8 @@
 <form [formGroup]="editarDocumento">
   <p-table #dt [value]="Documentos.controls" dataKey="Numero" [rowHover]="true" [rows]="5"
-    [showCurrentPageReport]="false" [paginator]="true"
+    [showCurrentPageReport]="false" [paginator]="false"
     [globalFilterFields]="['Tipo', 'Numero', 'FechaCaducidad', 'FechaEmision', 'PaisEmision']"
-    [alwaysShowPaginator]="true" [autoLayout]="true" breakpoint="1200px">
+    [alwaysShowPaginator]="false" [autoLayout]="true" breakpoint="1200px">
     <ng-template pTemplate="caption">
       <div class="table-header cabecera">
         {{ 'perfil.documentos' | translate }}
@@ -19,7 +19,7 @@
             <mat-label>{{ 'perfil.tipo-documento' | translate }}</mat-label>
             <mat-select formControlName="Tipo">
               <mat-option *ngFor="let documento of tiposDocumentosVista" [value]="documento.value">
-                {{ documento.viewValue }}
+                {{ documento.viewValue | translate}}
               </mat-option>
             </mat-select>
             <mat-error *ngIf="
@@ -153,16 +153,14 @@
         <td class="contenedor-botones">
           <span (click)="borrarDocumento(i)">
             <i class="far fa-trash-alt responsive--icono" pTooltip="{{ 'perfil.borrar' | translate }}"
-              tooltipPosition="top"></i>
+              tooltipPosition="left"></i>
             <button class="button alert responsive--boton expanded mb-0">
               {{ 'perfil.borrar' | translate }}
             </button>
           </span>
         </td>
       </tr>
-
-    </ng-template>
-
+    </ng-template>    
     <ng-template pTemplate="emptymessage">
       <tr>
         <td colspan="6">{{ 'dashboard.tabla-resumen.no-items' | translate }}</td>
